@@ -1,0 +1,1154 @@
+{
+  "name" : "2402.18894.pdf",
+  "metadata" : {
+    "source" : "CRF",
+    "title" : null,
+    "authors" : [ ],
+    "emails" : [ "markus.ackermann@desy.de", "helbing@uni-wuppertal.de" ],
+    "sections" : [ {
+      "heading" : null,
+      "text" : "royalsocietypublishing.org/journal/rsta\nReview\nArticle submitted to journal\nSubject Areas:\nAstroparticle physics, Neutrino\nproperties, Fundamental particles\nand interactions\nKeywords:\nNeutrinos, Gamma rays,\nBeyond-standard-model physics\nAuthor for correspondence:\nMarkus Ackermann\ne-mail: markus.ackermann@desy.de\nKlaus Helbing\ne-mail: helbing@uni-wuppertal.de\nSearches for beyond-standard-model physics with astroparticle physics instruments M. Ackermann1 and K. Helbing2\n1Deutsches Elektronen-Synchrotron DESY,\nPlatanenallee 6, 15738 Zeuthen, Germany 2Dept. of Physics, University of Wuppertal, 42119\nWuppertal, Germany\nMany instruments for astroparticle physics are primarily geared towards multi-messenger astrophysics, to study the origin of cosmic rays (CR) and to understand high-energy astrophysical processes. Since these instruments observe the Universe at extreme energies and in kinematic ranges not accessible at accelerators these experiments provide also unique and complementary opportunities to search for particles and physics beyond the standard model of particle physics. In particular, the reach of IceCube, Fermi and KATRIN to search for and constrain Dark Matter, Axions, heavy Big Bang relics, sterile neutrinos and Lorentz Invariance Violation (LIV) will be discussed. The contents of this article are based on material presented at the HumboldtKolleg \"Clues to a mysterious Universe - exploring the interface of particle, gravity and quantum physics\" in June 2022.\n© The Authors. Published by the Royal Society under the terms of the Creative Commons Attribution License http://creativecommons.org/licenses/ by/4.0/, which permits unrestricted use, provided the original author and source are credited.\nar X\niv :2\n40 2.\n18 89\n4v 1\n[ as\ntr o-\nph .H\nE ]\n2 9\nFe b\n20 24\n2 royalsocietypublishing.org/journal/rsta P hil. Trans. R .S oc. A 0000000 .........................................................................."
+    }, {
+      "heading" : "1. Introduction",
+      "text" : "Neutrino oscillations and dark matter are clear indications that the standard model of particle physics is incomplete. Despite this evidence, searches at accelerators for new particle types and new interactions have not shown results so far up to TeV masses. Astroparticle physics experiments1 go beyond the reach of accelerator experiments to higher and lower energies. In this paper we describe the current status of KATRIN, IceCube and Fermi, explore the prospects of these instruments for measuring physics observables connected to beyond-Standard-Model (BSM) hypotheses, and discuss research-and-development projects that may further extend their reach. It is structured as follows: section 2 introduces the instruments, their key observations and how they enable constraints on or discoveries of BSM physics; section 3 summarizes a selection of specific BSM physics constraints obtained by aforementioned instruments; section 4 provides a glimpse into the future with an overview of related planned astroparticle physics instruments."
+    }, {
+      "heading" : "2. Instruments and key observations",
+      "text" : "(a) IceCube The IceCube neutrino observatory [8], located near Amundsen-Scott base at the geographic South Pole in Antarctica, is the world’s most sensitive neutrino telescope to date. About one cubic kilometer of glacial ice is instrumented with 5160 optical sensors that detect the faint Cherenkov light of charged particles traversing the ice, such as muons produced in charged-current (CC) interactions of muon neutrinos, or particle showers originating from deep inelastic scattering of neutrinos of all flavors. The optical sensors, deployed at depths between 1450 m and 2450 m below the surface along 86 cables are interspersed throughout the volume with a typical distance of about 125 m between cables, and 17 m between adjacent sensors on a single cable. IceCube also contains a surface detector (IceTop) equipped with identical optical sensors that cover the footprint of the in-ice detector, allow CR composition studies, and aid in the separation of neutrinos from CR air showers. Constructed during the years from 2005 and 2011, IceCube has been fully operational and is continuously taking data since then with an uptime in excess of 99%.\nArrival direction, energy, and flavor reconstruction for the incident neutrinos is performed based on the timing and amplitude information collected by the optical sensors, called digital optical modules (DOMs). The same information is also used to distinguish neutrino interactions from atmospheric backgrounds induced by cosmic-ray air showers. Typical particle signatures, distinguished in IceCube analysis, are: a) tracks, elongated light patterns from muons traversing the detector volume; b) cascades, hadronic and electromagnetic particle showers contained in a small volume inside the detector; c) starting tracks, the combination of a track and a cascade due to a CC neutrino interaction inside the instrumented volumel d) double cascades, from highenergy (E≳ 100 TeV) CC tau neutrino interactions and the subsequent decay of the tau lepton. Some hypothesized beyond-standard-model particles would be identified in IceCube by their non-standard signatures that are distinct from neutrinos or atmospheric backgrounds, e.g., by a velocity significantly slower than c0, the vacuum light speed, by light yields that point to fractional charges, or by a double track signature.\nEach particle signature has its unique values and limitations. The arrival direction of tracks can be reconstructed to sub-degree accuracy [8], while the angular resolution is of O(10◦) for cascades. In contrast, the energy resolution of cascades detected in IceCube is ∼15% [2], while the measurement of the energy loss of tracks inside the instrumented volume only yields a lower limit on the muon and neutrino energies. Double cascades are specific to tau neutrino interactions and play an important role for constraining the flavor composition of the astrophysical neutrino flux. The energy threshold for the bulk of the detector array corresponds to about 100 GeV\n1We use a broad definition of astroparticle physics in this manuscript including any particle physics instrumentation that does not require an accelerator.\n3 royalsocietypublishing.org/journal/rsta P hil. Trans. R .S oc. A 0000000 .......................................................................... of deposited energy, i.e., the cumulative energy loss of the neutrino-induced muon or particle shower inside the instrument. A denser configuration of optical sensors in the center of IceCube (named DeepCore) yields a lower detection threshold of about 10 GeV for neutrino interactions in this volume, enabling the study of neutrino oscillation parameters with atmospheric neutrinos in IceCube, but also significantly increasing the sensitivity to neutrino signals from dark matter annihilation for WIMP masses below few hundreds of GeV [17]. (b) Fermi Gamma-ray Space Telescope The Fermi Gamma-ray Space Telescope, launched in 2008 into a low Earth orbit, surveys the gamma-ray sky with unprecedented sensitivity for the last 15 years. The satellite contains two instruments. The main payload is the Large Area Telescope (LAT), surveying the entire gammaray sky at energies from about 50 MeV to 1 TeV [50]. A particle tracking detector, consisting of multiple layers of Si-strip detectors, interspersed with Tungsten foils records the trajectories of electron-positron pairs produced from gamma-rays interacting in the detector. Their energy is measured in a calorimeter system consisting of CsI scintillator crystals mounted below the tracking detector. Both detectors are shielded against incoming charged cosmic rays by an anticoincidence veto system made of plastic scintillator tiles that surround the tracker and calorimeter on five sides. The resolution for measuring the energy of the incoming photons is better than 10% over a wide range in energy. The angular resolution depends strongly on the photon energy and ranges from few degrees at 100 MeV to O(0.1◦) at 10 GeV and above. The LAT has a wide field-of-view and observes at any instant a solid angle of 2.4 sr, allowing the entire sky to be observed every three hours2 An important aspect of the LAT mission that is reflected in its design is the search for the specific signatures of gamma rays produced in the annihilation of weakly interacting massive particles (WIMPs) in various regions of the sky. It is also sensitive to certain proposed beyondstandard-model physics effects through the observations of the spectral shapes of astrophysical sources and the light curves of transients.\nThe second instrument on the Fermi satellite is the Gamma-ray Burst Monitor (GBM) designed to detect and localize short gamma-ray transients in two energy bands (8 keV – 1 MeV, 200 keV – 40 MeV) [81]. Its field-of-view is the entire sky that is not occulted by the shadow of the Earth. It routinely detects hundreds of gamma-ray bursts (GRB) per year, extremely energetic transients of seconds to minutes duration associated with particular types of supernova explosions and compact object mergeres (see, e.g., [83] for a review). In 2017, the GBM was one of the instruments that observed the electromagnetic counterpart to the binary neutron star merger GW170817A in coincidence with the gravitational wave signal [24,25], marking the first and only direct confirmation of the connection between compact object mergers and GRBs to date.\n(c) KATRIN The KATRIN experiment is designed to measure the mass of the electron antineutrino with subeV precision by examining the spectrum of electrons emitted from the beta decay of tritium. The experiment is a large scale experiment carried out at the Karlsruhe Institute of Technology in Germany scaling up the size of previous experiments by an order of magnitude including a much more intense gaseous tritium source. The primary goal of the experiment is to determine the absolute mass scale of the neutrino in a direct and model-independent measurement. After a first tritium commissioning campaign in 2018, the experiment is collecting data since 2019, and in its first two measurement campaigns has already achieved a sub-eV sensitivity. After 1000 days of data-taking, KATRIN’s design sensitivity is 0.2 eV at the 90% confidence level.\nβ decays are provided by a high-luminosity, windowless, gaseous, cryogenic, molecular tritium source, while the β energies are analyzed by a MAC-E-filter spectrometer with eV-scale 2between 2008 and 2018, modified survey pattern afterwards. See https://fermi.gsfc.nasa.gov/ssc/ observations/types/post_anomaly/ for more information.\n4 royalsocietypublishing.org/journal/rsta P hil. Trans. R .S oc. A 0000000 ..........................................................................\nRear system Differential pumping system Cryogenic pumping section Pre- spectrometer\nMain spectrometer Focal-plane detector\nMonitor spectrometer\nTritium source\nFigure 1. The KATRIN beamline. Figure adapted from [42]\nfilter width. The 70m KATRIN beamline is designed to perform high-precision energy analysis of β electrons from a high-luminosity, gaseous T2 source. The following is an overview of the apparatus (Fig. 1). Briefly, T2 gas is purified in a tritium loop system, which continuously delivers cold T2 gas to the center of the source system. The gas diffuses to both ends of the source-system cryostat, where the first pumping stages are located. A fraction of the T2 molecules experience β decay during their flight within the source beam tube. Of the resulting βs, those that are emitted in the downstream direction are guided by magnetic field lines through the chicanes of two consecutive pumping stages that together reduce the flow of neutral tritium by some 14 orders of magnitude. Past the pumping systems, the βs reach a pair of tandem spectrometers designed according to the principle of magnetic adiabatic collimation with electrostatic filtering (MAC-E filters). A MAC-E filter uses magnetic-field gradients to collimate the β-electron flux, allowing a longitudinal retarding potential U to set a threshold on the total kinetic energy of the βs. A MACE filter thus acts as an integrating high-pass filter, with a characteristic relative filter width set by the ratio of the minimum to the maximum magnetic fields. β electrons with sufficient energy pass through the main spectrometer and are counted in the focal-plane detector. Calibration and monitoring systems are located in several positions along the beamline; e.g. the forward beam monitor [52] in the cryogenic pumping section uses silicon detectors to sample the β rate at the edge of the flux tube and across. Recently, the KATRIN experiment has placed an upper limit on the neutrino mass of mν < 0.8 eV [40]. Besides this main scientific goal, KATRIN is also sensitive to several BSM hypotheses as discussed in section 3.\n(d) Astrophysical observations The Fermi LAT has given us the most detailed picture of sources, transients, and diffuse emission on the gamma-ray sky to date. Figure 2 shows a map of the sky above 1 GeV in energy corresponding to 12 years of LAT observations. Clearly visible on this skymap are the many sources, both Galactic and extragalactic in origin, as well as the diffuse Galactic emission originating from the interactions of cosmic-ray nuclei and electrons in the interstellar gas and radiation fields [31]. Also visible are the giant lobes that are commonly associated with an outflow from the central region of the Galaxy, while their detailed production mechanisms are still under debate (see, e.g., [98] for a review). Source catalogs are updated in regular intervals by the Fermi LAT collaboration, the latest such catalog being 4FGL-DR3, based on 12 years of LAT observations [27]. 6558 gamma-ray sources have been reported in this catalog, of which about two thirds have been identified or associated to known astrophysical sources. Many different populations of Galactic gamma-ray sources contribute. The extragalactic sky, however,\nEnergy [MeV] 210 310 410 510\n] -1\ns r\n-1 s -2 d N /d E [M eV c m 2\nE\n-610\n-510\n-410\n-310\nTotal EGB\nIGRB\n°Resolved sources, |b|>20\nIGRB - Abdo et al. 2010\nFigure 3. Isotropic (IGRB) and total extragalactic gamma-ray background (EGB) observed by Fermi LAT. The total EGB comprises the sum of the IGRB and the resolved extragalactic sources. An earlier measurement [26] is shown for comparison. Figure adapted from [32].\nis overwhelmingly dominated by blazars – active galaxies, with their relativistic jet pointing towards Earth. While such systems are rare, they can be observed throughout almost the entire universe up to high redshifts (z≫ 2), due to the already high intrinsic gamma-ray luminosity of the jets being further amplified by Doppler boosting effects.\nIn the core of the Milky way an excess of gamma-radiation at few GeV in energy has been observed that is difficult to reconcile with models of the diffuse emission from cosmic-ray interactions in the interstellar medium. Gamma-ray emission from the annihilation of WIMPs near the center of our Galaxy has been proposed as a potential origin for this radiation, but it remains inconclusive, as several scenarios for an astrophysical origin of this excess remain viable, e.g., emission from unresolved millisecond pulsars in the bulge of the Milky Way (see, e.g., [87] for a review).\nThe extragalactic diffuse gamma-ray emission, also called the isotropic gamma-ray background (IGRB) contains the emission of all unresolved source populations throughout the\n6 royalsocietypublishing.org/journal/rsta P hil. Trans. R .S oc. A 0000000 .........................................................................."
+    }, {
+      "heading" : "109 1010 1011 1012 1013 1014 1015 1016 1017 1018 1019 1020 1021",
+      "text" : "E [eV] 10 10 10 9 10 8 10 7 10 6 10 5\n10 4\nE2 ×\n[G eV\ns 1 sr\n1 cm\n2 ]\nall flavours : = 1 : 1\nDiffuse (Fermi LAT) Cosmic rays (Auger) Cosmic rays (TA)\nIceCube cascades (PRL 2020) IceCube Glashow (Nature 2021) IceCube tracks (APJ 2022)\nFigure 4. Measurements of high-energy gamma rays by Fermi-LAT [32], high-energy neutrinos by IceCube [13,15,20], and ultra-high-energy cosmic rays by the Pierre Auger Observatory [28] and the Telescope Array [73]. Figure adapted from [35].\nuniverse, as the universe is transparent to gamma rays (E≲ 10 GeV) up to distances far beyond the peak in star and galaxy formation. Figure 3 shows the latest measurement of the IGRB obtained from Fermi LAT data [32]. It is particularly interesting for searches for BSM physics, as any hypothetical process that eventually leads to the production of gamma rays would leave an imprint in the IGRB. Accordingly, the measured IGRB intensity can be used to constrain proposed processes or particle properties.\nThe IGRB is also a key constraint for multi-messenger astrophysics and provides an important link to neutrino observations. Astrophysical neutrinos, discovered for the first time in the data of the IceCube neutrino telescope in 2013 [1], have now been observed for over a decade. Most of the neutrinos attributed to an astrophysical origin cannot be related to specific known sources. The distribution of the dominant fraction of these neutrinos is compatible with an isotropic arrival pattern, pointing to an extragalactic origin of the particles. We therefore call it in this paper the isotropic neutrino background (INB) in analogy to the IGRB. Figure 4 shows the spectrum measured by IceCube using track and cascade datasets, respectively. Based on the observed ratio between tracks, cascades and double showers, IceCube can also constrain the flavor composition of the astrophysical neutrino beam, an overview of the constraints derived from different data samples is given in Figure 5. The flavor composition is compatible with production of the neutrinos from charged pions in astrophysical sources, and standard-model flavor oscillations of the neutrinos during their propagation to Earth. A more detailed discussion of the relation of flavor composition measurements and BSM physics can be found in subsection (e) below.\nFigure 4 also relates the measured intensity of the IGRB to the intensity of the INB and the ultra-high energy cosmic-ray flux. Neutrinos and gamma rays are produced simultaneously, and with similar energies, when the pions generated in CR interactions decay. While neutrinos can propagate the universe freely, photons with energies above few tens of GeV will interact with UV to microwave radiation backgrounds in the universe [63], producing electron-positron pairs that in turn will radiate photons (at lower energies than the initial photon) via inverse Compton interactions in the same intergalactic radiation fields. This is a process commonly denoted as cascading of gamma rays. The energy of the TeV and PeV photons produced in CR interactions in extragalactic sources will therefore reach Earth in the GeV band, as a contribution to the IGRB observed by Fermi LAT.\nThe described process has profound implications on the nature of the neutrino sources responsible for the INB. The gamma rays co-produced in these sources would also be responsible\n0. 0 0. 1 0. 2 0. 3 0. 4 0. 5 0. 6 0. 7 0. 8 0. 9 1. 0 Fraction of νe 68 % 95 % νe : νµ : ντ at source → on Earth: 0:1:0 → 0.17 : 0.45 : 0.37 1:2:0 → 0.30 : 0.36 : 0.34 1:0:0 → 0.55 : 0.17 : 0.28 1:1:0 → 0.36 : 0.31 : 0.33 HESE with ternary topology ID Best fit: 0.20 : 0.39 : 0.42 Global Fit (IceCube, APJ 2015) Inelasticity (IceCube, PRD 2019) 3ν-mixing 3σ allowed region 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 Fraction of ν µ\n0.0\n0.1\n0.2\n0.3\n0.4\n0.5\n0.6\n0.7\n0.8\n0.9\n1.0\nFr ac\nti on\nof ν τ\nfor the dominant fraction of the high-energy IGRB, unless the sources themselves are opaque to gamma rays. Unsurprisingly, given that most extragalactic Fermi LAT sources are blazars, also the IGRB above few tens of GeV is dominated by emission from unresolved blazars [33]. Evidence for TeV neutrino emission from blazars has also been found, in particular in relation to the source TXS 0506+056 [9,10]. However, the lack of the detection of bright individual blazars with IceCube, limits their cumulative contribution to the total extragalactic neutrino flux to few percent [7]. This implies that the source populations creating the extragalactic neutrino and gamma-ray skys are largely complementary, and that a significant fraction of the neutrino emission arises from sources (or transients) that are themselves opaque to gamma rays.\nFew such environments exist in nature, early phases of gamma-ray burst (GRB) explosions would be a candidate, but the non-observation of neutrinos correlated to GRBs sets stringent limits (<1%) on their contribution to the extragalactic neutrino emission [5]. Another class of candidates are accretion disks around supermassive black holes in the center of active galaxies (see, e.g., [78] for a review). Their intense optical to UV radiation, in many cases outshining the radiation of the entire Milky Way, efficiently absorbs gamma rays produced in their vicinity. The first strong evidence for a neutrino point source, the observation of neutrino emission from the nearby active galaxy NGC 1068 [19] strengthens the case to be made for this type of sources. NGC 1068 is almost an order of magnitude brighter in neutrinos than in high-energy gamma rays, pointing to a production of the neutrinos near the black hole event horizon and the absorption of the co-produced gamma rays (e.g., [86]). In addition, a correlation analysis between neutrino emission and a large sample of active galaxies finds that the IceCube data is compatible with a predominant production of extragalactic neutrinos in this population [21]. Interestingly, a related transient phenomenon, the tidal disruption of stars in the gravitational field of otherwise quiet supermassive black holes that lead to the formation of temporary accretion disks, have also been linked to the emission of high-energy neutrinos [93,95].\n8 royalsocietypublishing.org/journal/rsta P hil. Trans. R .S oc. A 0000000 .......................................................................... Signatures of BSM physics can be imprinted in astrophysical signals in many ways. In the brightness, spectral shape and spatial distribution of sources and diffuse emission, as well as in the temporal characteristics of the emission from transients. For neutrinos, the flavor composition is another unique probe. So far all searches have only produced constraints on such new physics processes. In the section below, we will introduce such signatures, before discussing the constraints derived in section 3. (e) Signatures of BSM (i) Sources and transients Our current understanding of physics puts constraints on the acceleration of cosmic rays in astrophysical environments, secondary particle production in astrophysical sources, and the propagation of high-energy particles through the universe. This can be used to search for new physics by testing the data for violations of such constraints, and – if none are observed – calculating limits on key quantities defining the BSM physics considered. The intrinsic gammaray spectra of extragalactic sources are modified by the absorption of gamma rays in the extragalactic background light (EBL, e.g., [67]) due to photon-photon pair-production of the gamma rays with the microwave-to-UV photons of the EBL. A strong, distance dependent, absorption of photons with E≳ 10 GeV is expected from this interaction. Robust lower limits on the energy density of the background light in the universe can be calculated, by summing up the radiation from stars / dust clouds in galaxies, and the cosmic microwave background (CMB). A significant excess of high-energy photons from distant sources could therefore be interpreted as a signature of new physics, in particular of axion-like particles (ALPs) that couple to photons in the presence of external magnetic fields (see, e.g., [91]) .\nAstrophysical transients give rise to another class of tests for the standard model, i.e., timeof-flight tests for high-energy particles of different energies. Quantum gravity theories generally allow for a violation of the energy dispersion relation of special relativity that would lead to small, energy dependent, differences in the group velocities of particles that deviate from E2 − p2 =m2 (see [80], for a review on this topic). Photons or neutrinos emitted at the same time and location in an astrophysical source would not arrive at the same time for observers at Earth. Consequently, upper limits on the arrival time difference can be calculated for particles arriving within a short transient. The enormous distance between source and observer, often of the order of 109 light years and more, and the wide energy range available in the observations of high-energy particles translates into strong constraints on Lorentz invariance violations.\n(ii) Diffuse emission spectra and neutrino flavor composition\nWe discussed in subsection (d) that the annihilation of WIMPs in the dark matter halo of the Milky way might give rise to an observable diffuse gamma-ray signal from the central parts of our Milky Way. However, interpretation of the observed gamma rays is complicated due to a potential astrophysical origin of the emission. An easier-to-interpret signal would come from observations of the Milky Way’s satellites, called dwarf spheroidal galaxies (dSph). Due to the lack of gas or dust in such galaxies, and the absence of significant star-formation activities, no astrophysical gamma rays are expected from such galaxies, and an observation would be a “smoking gun” for WIMP annihilation.\nThe observed spectral shapes of the IGRB and the INB that contain the respective cumulative intensity from all unresolved sources and diffuse emission processes in the universe are another sensitive probe for new physics. Indeed, if WIMPs decay, IGRB and INB provide sensitive probes on their lifetimes that are independent of assumptions about the shape of the Galactic halo. The IGRB and INB can be used to derive limits for WIMP masses in the GeV to PeV energy range (e.g., [72]). Constraints can not only be derived for WIMP decays, but also for other dark matter candidates that eventually produce gamma rays, such as the evaporation of primordial black holes (see, e.g., [97], for a review).\n9 royalsocietypublishing.org/journal/rsta P hil. Trans. R .S oc. A 0000000 .......................................................................... A particularly important probe for new physics is the flavor composition of the INB. Extragalactic neutrinos propagate millions to billions of light years before being detected on Earth, the distance being much larger than the coherence length of the associated wave packets. Therefore, instead of an L/E dependent flavor composition an average flavor content is observed that depends only on the flavor composition that is produced in the neutrino sources. Standard oscillations, parametrized in the PMNS matrix [79,90], lead to a narrow range of observable flavor compositions for any possible flavor composition at the source. A deviation from this “allowed” range could be caused by a variety of new physics processes, including neutrino decay, mixing with sterile neutrinos, neutrino-dark matter interactions, Lorentz invariance violation, etc. The potential of current and future neutrino telescopes to constrain such processes is briefly discussed below in section 3, subsection (f). (iii) Atmopsheric neutrinos Atmospheric neutrinos produced by cosmic-ray interactions provide a beam for the study of neutrino properties. Neutrino oscillation was discovered through studies of atmospheric neutrinos. They are produced as decay products in hadronic showers resulting from collisions of cosmic rays with nuclei in the atmosphere. IceCube has collected a large sample of atmospheric neutrino events in the energy range spanning 100 GeV to 100 TeV which can be exploited for BSM neutrino oscillation studies. The BSM topics addressed with this data include searches for sterile neutrinos, anomalous decoherence e.g. through quantum gravity, Lorentz violation, non-standard interactions and neutrino decay. (iv) Signatures of new particles\nIf the standard model of particle physics holds up to much higher energies, new particles cannot be created at accelerators but may be observed as heavy relics of the big bang era or from ultrahigh energy astrophysical sources. Hence, IceCube has developed a rigorous program to exploit the unique capabilities of the detector to search for a variety of Big Bang relics and heavy particles predicted to be produced in high energy processes, e.g., in grand unified theory (GUT) symmetry breaking. As an example, most theories describing a unification of forces predict the existence of elementary magnetic charges (Magnetic Monopoles, MM) and hence explain the observed quantization of electric charge.\nBSM physics may also manifest itself at lower energies through couplings not accessible at accelerators. Minimal dark matter models provide both a dark matter candidate and can explain the neutrino mass via coupling to the Higgs field (see e.g. [59]).\n(v) Neutrinos from beta decays\nThe squared neutrino mass, m2ν , is obtained from a fit of the calculated analytical spectrum to the measured data. The analytical spectrum is a convolution of the theoretical differential spectrum with the experimental response function. The response function describes the number of β electrons that are transported through the flux tube and counted at the detector, including both the energy loss experienced as the β electrons propagate through the source and the transmission properties of the MAC-E filter.\nTesting physics beyond the standard light-neutrino picture adds a variety of possible scenarios to KATRIN. The motivation for many of these scenarios relates to the fact that the neutrino mass is produced in a different way from the other masses of Standard Model (SM) particles, and that neutrinos in general are perfect candidates to be connected to BSM physics. Common features of such frameworks are additional sterile neutrino states, new neutrino interactions, new particles coupled to neutrinos, etc. The scale at which new physics appears is not clear, especially for sterile neutrinos. KATRIN is sensitive to two interesting mass scales, the eV- scale, which corresponds to the design analysis interval of the experiment, and the keV scale, which falls within the Q\n10\nroyalsocietypublishing.org/journal/rsta P hil. Trans. R .S oc. A 0000000 ..........................................................................\nvalue of tritium decay. The new physics can manifest itself in the measured spectrum in several ways, e.g. a kink-like spectral feature (heavy sterile neutrinos [82]), a shape distortion (exotic weak interactions, light sterile neutrinos, or new light bosons [49]), the appearance of a line feature (relic neutrino capture [43]), or a sidereal modulation of the fit parameters (Lorentz invariance violation [45])."
+    }, {
+      "heading" : "3. New physics constraints",
+      "text" : "(a) Primordial black holes Black holes might have formed in the early universe over a wide range of masses, ranging from the Planck mass (10−5 g) to hundreds of thousands of solar masses [57,70,99]. These primordial black holes (PBHs) eventually disintegrate via Hawking radiation on time scales that depend strongly on their initial mass M . Their lifetime is about τ ∼ (M/M⊙)3 × 1064 yr. PBHs with a mass of M∗ ∼ 1015 g would therefore have a lifetime comparable to the age of the universe. While disintegrating, they radiate as black bodies with a temperature of T ∼ (M⊙/M)× 10−7 K. This implies a strong rise of their temperature briefly before evaporation, leading to bursts of high-energy radiation from individual black holes, and a contribution to high-energy radiation backgrounds throughout the universe.\nFor initial masses M ≲M∗, the PBHs already have evaporated in the present-day universe. Their early-universe density can be constrained by comparing the calculated radiation contribution from their evaporation to measurements of the IGRB. PBHs with masses M ≳M∗ can still exist at the current epoch, and their thermal radiation could be observed both, via their contribution to diffuse radiation backgrounds (IGRB, Galactic diffuse emission), and via searches for individual radiation bursts from individual nearby evaporations of PBHs. However, for masses M ≫M∗, PBH temperatures at the current age of the universe are too low to emit observable amounts of high-energy radiation, limiting any constraints to a mass range within a few orders of magnitude around M∗.\nThe observation of the IGRB leads to one of the best current constraints on the density of PBHs with mass ranges between M ∼ 1014 g and M ∼ 1017 g [56]. Limits from the non-observation of gamma-ray flares due to individual primordial black holes evaporating near the solar system are currently several orders of magnitude weaker (see, e.g., [34]).\nNeutrinos are expected to be produced from Hawking radiation as well as the temperature rises in the final stages of the evaporation. This expected flux of high-energy (> 1 TeV) neutrinos from an evaporating PBH can be used to place constraints on their burst rate density in our local universe. The expected neutrino signal is time and energy dependent [58]. A point-source search for neutrino signal from PBH bursts using several years of IceCube data is forthcoming.\n(b) Magnetic monopoles Due to the absence of magnetic charges, Maxwell’s equations of classical electrodynamics appear asymmetric. P. Dirac was the first to speculate about the existence of magnetic monopoles [62]. He showed that the presence of a magnetic monopole with a minimum charge qm would explain why the electric charge is always quantized. Although, as Dirac showed, magnetic monopoles can be consistently described in quantum theory, they do not appear automatically in that framework. As was first found independently by ’t Hooft [96] and Polyakov [89], this is different in Grand Unified Theories (GUT) which embed the Standard Model interactions into a larger gauge group. These theories are motivated by the observation that the scale-dependent Standard Model gauge couplings seem to unify at very high energies. Generally, a ’t Hooft–Polyakov monopole can arise from the spontaneous symmetry breaking of the GUT group via the Higgs mechanism. The stability of the monopole is due to the Higgs field configuration which cannot smoothly be transformed to a spatially uniform vacuum configuration.\n11\nroyalsocietypublishing.org/journal/rsta P hil. Trans. R .S oc. A 0000000 ..........................................................................\nFigure 6. Simulated event topologies for magnetic monopoles of different velocities. The size of the dot is proportional to the amount of light detected and the color shows the timing: red denotes earlier, blue denotes later hits. Left Panel: monopole traveling at 0.982c from the bottom to the top of the detector [76]. Middle Panel: monopole at 0.3c moving from the top of the detector to the bottom emitting luminescence light. The simulated track of the particle is indicated in red [22]. Right Panel: Monopole with β = 10−3 catalyzing nucleon decay with λcat = 1 cm with superimposed background noise [3]. The black line represents the simulated monopole track.\nWhile inaccessible to collider experiments, very heavy GUT monopoles could have been produced in the early universe, when the temperature exceeded Tcr ∼ΛGUT. In this case, the expected monopole density would be roughly one per correlated volume, which corresponds to the horizon size in a second-order phase transition [74,75]. This gives a naive monopole energy density (relative to the critical density) of ΩGUTh 2 ≃ 1020 ( Tcr 1016 GeV )3( Mm 1017 GeV ) . (3.1)\nThis prediction is in clear conflict with the observed spatial flatness of the Universe (Ωtot ≃ 1) and known as the “monopole problem”. A solution to this problem is an inflationary universe, an exponential expansion of the scale factor diluting the initial monopole abundance.\nAlthough the greatest interest has been in the supermassive monopoles that are motivated by a large variety of GUTs, the possibility of lighter monopoles lately also received attention (see e.g. [64]). Therefore, a large parameter space of possible monopole masses, velocities, and signatures is considered experimentally. Here we address direct searches for primordial monopoles with IceCube.\nThere are several light-producing channels for the detection of magnetic monopoles in ice, each of which is dominant at different velocities. Magnetic monopoles can induce Cherenkov light like any other highly electrically charged particle when they travel with velocities above the speed of light in the medium. Below the Cherenkov threshold in ice (≈ 0.76 c), no direct Cherenkov light is produced. Instead, indirect Cherenkov light, produced by secondary δ electrons induced by a passing magnetic monopole, becomes the dominant light production mechanism down to about 0.6 c. Unlike for direct Cherenkov light, there is no sharp cutoff. Instead, the light yield decreases until luminescence becomes the dominant light production mechanism. Luminescence light is largely velocity independent, but has a lower overall light yield than the other two light production channels described above. At velocities well below 0.1 c, luminescence is expected to drop off steeply. Catalysis of nucleon decays is a plausible scenario for GUT monopoles and can be observed when the mean free path is small compared to the detector size. Examples of signatures of magnetic monopoles passing through the detector at different velocities are shown in Fig. 6. For each of these speed ranges, the search for magnetic monopoles with the IceCube experiment has set the current best upper limits on the flux of magnetic monopoles [3,6,22,23].\n12\nroyalsocietypublishing.org/journal/rsta P hil. Trans. R .S oc. A 0000000 ..........................................................................\n(c) Generic searches for Big Bang relics A generic experimental approach to search for big bang relics is detecting particles that are much heavier and produce less light than standard model particles. Examples for particles producing such signatures are heavy neutral leptons, fractional charges and electrically charged Q-balls which are also candidates for dark matter. As the largest and most massive instrumented volume on Earth, IceCube is ideally suited to observe the interaction of such relics. In contrast to seawater, the radioactive purity of South Pole ice allows much lower thresholds for light detection. With the determination of the efficiency of luminescence in ice [88] it is now possible to detect such particles essentially across all velocity ranges.\n(d) Lorentz invariance violation Quantum gravity theories can lead to a modified dispersion relation and therefore a violation of Lorentz invariance (LIV). The modified dispersion relation can be effectively described as a Taylor expansion:\nE2 −m2c4 = p2c2 ( 1−\n∞∑ n=1 s± ( E EQG )n) .\nEQG is the energy scale at which the deviations become prominent, and usually EQG ∼ EPlanck. This dispersion relation implies an energy-dependent velocity v of the photons (or, e.g., neutrino mass eigenstates) that is in leading order given by 1− v/c∝ (E/EQG)n, where n=1,2,. . . is the lowest order non-vanishing term in the expansion [48].\nAn obvious cosmic probe for such a modified dispersion is the arrival time of photons of different energies that have been emitted at the same time, or within a known time frame. Due to the long propagation distances involved, even small deviations from the canonical dispersion relation lead to a measureable time lag. However, in most astrophyscial environments the emission time of photons cannot be pinpointed exactly. In the case of violent outbursts, e.g., GRBs, it is reasonable to assume that all photons have been emitted after the onset of the burst and constraints can be derived from the observed time difference.\nIn May 2009, the Fermi satellite observed the bright short GRB 090510 with both on-board instruments. The GBM registered the light curve of the burst above 8 keV in energy, while the LAT measured the emission above 100 MeV, including the arrival of a 31 GeV photon about 850 ms after a precursor peak and 300 ms after the onset of the main burst. Together with the large distance of the burst, determined later from optical observations to originate at a redshift of z ∼ 0.9, this allowed for the first time to constrain EQG >EPlanck for n= 1 [30].\nThe most sensitive LIV constraints from neutrinos do not arise from time-of-flight measurements but from studies of the impact of the modified dispersion relation on flavor oscillations. Muon neutrinos, produced in CR air showers, propagate through the Earth as a superposition of mass eigenstates. The mass differences between the eigenstates lead to the well known phenomenon of flavor oscillation. Modifications in the dispersion relation change the probability Pνµ→νµ for observing a muon neutrino of energy E at distance L from the production location. IceCube measurements of the atmospheric neutrino flux as a function of zenith angle can probe propagation distances L between few tens of km and the Earth diameter of about 12800 km, as well as energies between few hundred GeV and few tens of TeV, leading to some of the strongest constraints for higher-order deviations of the dispersion relation [11].\nWhile many of the possible Lorentz-invariance violating parameters are strongly constrained by time-of-flight or neutrino-oscillation experiments, some parameters are virtually invisible to these experiments (see e.g. [61]). In KATRIN a preferred direction in space could manifest as a variation of the spectral endpoint depending on the latitude and orientation of the β-electron beam, or as a sidereal oscillation of the spectral endpoint E0 [77]. KATRIN has performed a search\n0000000 ..........................................................................\n2.5 2.0 1.5 1.0 E 0 -1 85 75 .5 (e\nV) best fit, 2R = 0.98 data\n0 100 200 300 400 500 600 700 800 time after first scan (h)\n2\n0\n2\nN or\nm al\niz ed\nre si\ndu al\ns\nfor LIV based on its first science run, looking for an oscillatory signature with the required period of 23.7 h (figure 7). This analysis finds no sign of LIV [45].\n(e) Dark matter annihilation and decay The annihilation or decay of dark matter into Standard Model particles can be probed by γ-ray, cosmic ray, and neutrino emission. Indirect dark matter searches with IceCube using neutrinos cover signals from the Sun, the Earth, galaxies and galaxy clusters. For a recent review see [38].\nThe Fermi LAT measurements are responsible for some of the strongest constraints on both, the annihilation cross-section of WIMPs and the lifetime of decaying DM in respective models. An excess of GeV radiation is observed from the Galactic center region (e.g., [39]) that can be interpreted as a WIMP annihilation signal for a dark matter particle with a mass of few tens of GeV. However, an astrophysical origin of this excess due to emission from unresolved gamma-ray source populations is another viable candidate for its origin. Interestingly, for dSph galaxies in the vicinity of the Milky way, where astrophysical backgrounds are low, no gamma-ray emission has been found so far, leading to constraints on the annihilation cross-section below the thermal relic cross-section for WIMPs with masses MDM ≲ 100GeV, depending on the annihilation channel. The work in [60] demonstrates that, including also the direct CR measurements from AMS-02 [37], it is indeed difficult to reconcile all current measurements with a dark matter origin of the Galactic center excess.\nThe Fermi LAT IGRB measurement provides one of the strongest lower limits on the lifetime τ of decaying dark matter. The limits for several decay channels exceed τ ≳ (1− 5)× 1028 over a DM particle mass range from few GeV to EeV [53]. In contrast to the signal from annihilation, which is proportional to the square of the dark matter density, and therefore best visible in overdense regions such as the center of the Milky Way, a signal from decaying dark matter is proportional to the density only. In this case the signal integrated over the entire visible universe is competitive, and, in addition, reprocessing of high-energy photons in the radiation fields of\n14\nroyalsocietypublishing.org/journal/rsta P hil. Trans. R .S oc. A 0000000 ..........................................................................\nthe universe to GeV energies, yields a strong signal even for DM particle masses far beyond the energy range of the Fermi LAT.\n(f) Neutrino properties\n(i) Neutrino mass\nCompared to everyday life, the Planck mass is still small with about 10−8 kg. However, this corresponds to an energy of 1028 eV, an energy which seems to be unattainable at present at terrestrial particle accelerators with 1013 eV, and which is also not reached by the highest energies of cosmic radiation of 1021 eV observed so far. At particle energies corresponding to the Planck mass, the De Broglie wavelength λ= h/p becomes comparable to the Schwarzschild radius. Accordingly, effects of a quantization of gravity would have to be considered. Up to times of about 10−44 seconds after the Big Bang, corresponding energy densities prevailed. Planck time is therefore the point at which the effects of quantum gravity in other fundamental interactions can no longer be ignored. Possibly all fundamental forces are united in this state, but the mechanism of this unification is unknown so far.\nCurrently, there is no generally accepted theory to describe the Planck era. However, the key could lie at the other end of the energy and mass scale, namely in the lightest known elementary particle, the neutrino. For decades the neutrino was considered massless however neutrino oscillations prove this wrong. Neutrinos have a mass less than one millionth of the second lightest particle, the electron. The masses of all other known elementary particles are much closer together.\nTo generate non-vanishing neutrino masses key properties of the Standard Model must be modified as it is not possible to construct a renormalizable mass term for the neutrinos with the fermionic content and gauge symmetry of the SM. Abandoning gauge symmetry or Lorentz invariance appears inappropriate. In order to introduce a neutrino mass one must extend the particle content of the model or depart from renormalizability. The idea of the so-called seesaw mechanism is to ascribe the tiny neutrino masses of less than 1 eV to the existence of a very high mass scale. The high mass scale originates from the generic hypothesis that new physics (NP) beyond the SM only manifests itself above some high energy scale. Between the Planck scale and the vacuum expectation value of the Higgs field (v= 246 GeV) there might exist another fundamental scale ΛNP . The heavier the new scale, the lighter the known neutrinos - hence the name Seesaw mechanism. With the seesaw mechanism the neutrino mass would be suppressed with v2/ΛNP . An example of an extension to the SM leading to a seesaw mechanism for neutrino masses are Grand Unified Theories (GUT, see e.g. [69]), in which all forces except gravity are unified with ΛNP ≃ 1016 GeV. In addition to the known light neutrinos, very heavy right-handed neutrinos are produced. Beyond this minimal seesaw scenario there exist also variants that connect ΛNP to the Planck scale (see e.g. [84,85,94]).\nRecently, the KATRIN experiment has set the world-leading direct measurement limit of mν < 0.8 eV (90% C.L.), based on its first calendar year of data taking [40]. The experiment continues to acquire data and is expected to run for several more years. Several promising upgrades, including active background-mitigation measures, are currently in development with the aim of reducing or compensating for the observed KATRIN background, and thereby further improving the neutrino-mass sensitivity towards the 0.2 eV sensitivity goal.\n(ii) Sterile neutrinos\nRight-handed neutrinos are a well-motivated SM extension: In the simplest version of the Seesaw mechanism the Standard Model is extended by assuming two or more right-handed neutrinos in addition to the known left-handed neutrinos. Right-handed neutrinos, unlike the known lefthanded neutrinos, would not participate in the weak interaction and are therefore called sterile. Here we discuss sterile-neutrino searches which consider a minimal extension of the standard model by one additional sterile neutrino (3ν + 1), associated with a mass eigenvalue m4.\n15\nroyalsocietypublishing.org/journal/rsta P hil. Trans. R .S oc. A 0000000 ..........................................................................\nFigure 8. Flavor composition range for selected BSM effects at the source (left panel), during propagation (middle panel), and at detection (right panel). Green regions mark the standard neutrino oscillations expectation, gray contours the IceCube-Gen2 expected sensitivity (best-fit, 1σ, 3σ). For more information on the displayed BSM effects, please refer to [92]. Figure adapted from [92].\nBy measuring and characterizing the flux of atmospheric neutrinos in the GeV to PeV energy range, the IceCube neutrino observatory is uniquely positioned to search for such oscillations. For eV-scale sterile neutrino states a matter-enhanced resonance would result in the near complete disappearance of TeV-scale muon antineutrinos passing through the Earth’s core. An analysis in reconstructed energy-zenith space assuming a sterile neutrino state with a mass-squared difference between 0.01 eV2 and 100 eV2 has been performed. The result shows consistency with the no sterile neutrino hypothesis [14].\nThe signature of an eV-scale sterile neutrino in KATRIN is a kink-like distortion of the β spectrum, most prominent at E ≈E0 −m4. The sterile-neutrino analyses of the first two measurement campaigns with a sensitivity to m24 ≲ 1600 eV\n2 and |Ue4|2 ≳ 6× 10−3 did not identify a signal [41]. Sterile neutrinos with a mass in the kilo-electronvolt (keV) regime are promising dark-matter candidates. As for eV-scale sterile neutrinos, the presence of a sterile neutrino in the keV mass range would result in a characteristic kink-like signature with a magnitude governed by the mixing amplitude. With an endpoint of E0 =18.6 keV, tritium βdecay permits a search for sterile neutrinos on a mass range of multiple keV. As a proof of principle, KATRIN data taken in the commissioning run in 2018 has been used to search for keV-scale sterile neutrinos in a mass range of up to 1.6 keV [44].\n(iii) Flavor composition constraints on new physics\nThe flavor composition of a neutrino beam emitted from an astrophysical source depends on the astrophysical environment. Neutrinos produced in the interactions of protons and nuclei with ambient matter emerge predominantly from the decay of charged pions that are followed by muon decays. If both, the muon and the pion, decay before losing a significant amount of energy, e.g., due to magnetic fields present in the source region, this will lead to the canonical flavor composition of νe : νµ : ντ = 1 : 2 : 0 at the source. On their long journey to Earth, the produced neutrinos are subject to flavor oscillations. Since the propagation distance of astrophysical neutrinos is much larger than the coherence length of the wave packets, the flavor composition on Earth, assuming standard neutrino oscillation, depends only on the flavor compositions at the source and the elements of the mixing matrix, but not on propagation distance or energy.\nIndeed, the possible range of observable flavor compositions under standard oscillation assumptions is quite constrained, independent of the flavor ratio at source. A comprehensive overview of the expected flavor compositions with and without new physics effects is given in [92]. Figure 8 shows the potential effects of various BSM physics processes, interactions and particles on the astrophysical flavor composition. Some effects manifest from the propagation inside the astrophysical source, some during the propagation of the neutrinos to Earth, and\n16\nroyalsocietypublishing.org/journal/rsta P hil. Trans. R .S oc. A 0000000 ..........................................................................\nsome at the detection stage, when the neutrinos traverse the matter of the Earth. The figure also indicates the constraints on the flavor composition that are expected from future detectors, namely IceCube-Gen2 (see section 4), for the case that the true flavor composition is given by a neutrino production at the source with flavor ratios of νe : νµ : ντ = 1 : 2 : 0 and assuming flavor oscillations according to the best-fit neutrino mixing matrix from atmospheric and accelerator neutrino measurements [66]. Current constraints from IceCube are shown in Figure 5."
+    }, {
+      "heading" : "4. Future opportunities",
+      "text" : "Since the launch of Fermi LAT in 2008, several ground-based gamma-ray observatories have become operational, or are under construction. The High-Altitude Water Cherenkov (HAWC) Observatory and the Large High Altitude Air Shower Observatory (LHASSO) are both operational and target TeV gamma rays. Both have already delivered a wide variety of new physics constraints (e.g., [46,47,54,55]) and will continue to do so in the future. The under construction Cherenkov Telescope Array (CTA), will allow observations of gamma-ray sources at energies between few tens of GeV and few hundred TeV with unprecedented sensitivity, promising, e.g., strong constraints on the WIMP annihilation cross-section beyond the mass range that can be tested by Fermi LAT and even more sensitive LIV tests [29].\nKATRIN has a design sensitivity goal of 0.2 eV at 90% confidence. This goal was based on a set of projections about achievable backgrounds and systematic uncertainties. Several systematics are exceptionally well controlled while others, not originally anticipated, are now particularly important. KATRIN’s countermeasures against the dominant backgrounds of prior generation experiments have been largely successful – but previously unforeseen backgrounds far exceed the original design budget. KATRIN is investigating active and passive transverse filters, to distinguish background Rydberg electrons from signal βs. THz radiation is a possible means of actively stimulating the de-excitation of Rydberg atoms, reducing the number of background electrons produced. Hence, THz radiation is used to manipulate the atomic states of the Rydberg atoms to reduce the ionization process by thermal radiation.\nThe Project 8 collaboration [65] performs cyclotron radiation spectroscopy of an atomic tritium source with the goal to reach a neutrino mass sensitivity of 40 meV. HOLMES [51] intends to perform a calorimetric measurement of the energy released in the decay of 163Ho with a with a sensitivity on the neutrino mass of about 1 eV/c2. ECHo [68] uses arrays of Metallic Magnetic Calorimeters with 163Ho implanted and aims to reach sub-eV sensitivity.\nKM3NeT [36] is a neutrino telescope under construction in the Mediterranean sea at two sites. Off the coast of Sicily, the ARCA array is optimized for astrophysics with TeV neutrinos and will eventually reach about 1 km3 in instrumented volume. The second array, ORCA, in the deep sea near Toulon, France, is focused on lower-energy neutrinos and the study of fundamental neutrino properties, such as the mass hierarchy or oscillation parameters. Both detectors will complement and improve the current IceCube constraints on BSM physics processes.\nFigure 9 shows an artist impression of the next generation detector at South Pole, IceCubeGen2, that has been proposed [16]. As a first step towards this future detector the IceCube Upgrade is currently underway, aiming to deploy seven new strings with newly developed optical sensors and additional calibration devices in the center of IceCube [71] by 2026. Further steps will increase the instrumented volume of the optical array by a factor of eight, leading to a sensitivity improvement that allows IceCube-Gen2 to detect five times fainter sources than IceCube, and collect almost an order of magnitude more events for spectral and flavor composition analysis. A glimpse at the expected performance of this next-generation detector for flavor composition studies was already shown in Figure 8. Likewise, sensitivity to massive Big Bang relic particles and dark matter will be enhanced by this increase in monitored volume. A more comprehensive overview can be found in [16]. Finally, the radio array of IceCube-Gen2, will push the sensitivity for EeV neutrinos by more than an order of magnitude in comparison to current detectors. An observation of such high-energy neutrinos would allow to probe, e.g., neutrino nucleon cross-sections in a completely new energy regime. Instead of optical sensors the\n0000000 ..........................................................................\nradio array uses antennas at a depth of 150 m, as well as close to the surface that can detect the radio emission from a > 100PeV neutrino interaction over large distances (> 1 km). This enables instrumenting a vast volume of glacial ice on a scale that would have been impossible with optical sensors."
+    }, {
+      "heading" : "Acknowledgment",
+      "text" : "The authors are grateful for the support of the Alexander von Humboldt Foundation throughout their careers and in particular the support of the Humboldt Kolleg \"Clues to a mysterious Universe\" which enabled this cooperation."
+    } ],
+    "references" : [ {
+      "title" : "et al",
+      "author" : [ "M.G. Aartse" ],
+      "venue" : "Evidence for High-Energy Extraterrestrial Neutrinos at the IceCube Detector. Science, 342:1242856,",
+      "citeRegEx" : "1",
+      "shortCiteRegEx" : null,
+      "year" : 2013
+    }, {
+      "title" : "et al",
+      "author" : [ "M.G. Aartse" ],
+      "venue" : "Energy Reconstruction Methods in the IceCube Neutrino Telescope. JINST, 9:P03009,",
+      "citeRegEx" : "2",
+      "shortCiteRegEx" : null,
+      "year" : 2014
+    }, {
+      "title" : "et al",
+      "author" : [ "M.G. Aartse" ],
+      "venue" : "Search for non-relativistic Magnetic Monopoles with IceCube. Eur. Phys. J. C, 74(7):2938,",
+      "citeRegEx" : "3",
+      "shortCiteRegEx" : null,
+      "year" : 2014
+    }, {
+      "title" : "et al",
+      "author" : [ "M.G. Aartse" ],
+      "venue" : "A combined maximum-likelihood analysis of the high-energy astrophysical neutrino flux measured with IceCube. Astrophys. J., 809(1):98,",
+      "citeRegEx" : "4",
+      "shortCiteRegEx" : null,
+      "year" : 2015
+    }, {
+      "title" : "et al",
+      "author" : [ "M.G. Aartse" ],
+      "venue" : "Search for Prompt Neutrino Emission from Gamma-Ray Bursts with IceCube. Astrophys. J. Lett., 805(1):L5,",
+      "citeRegEx" : "5",
+      "shortCiteRegEx" : null,
+      "year" : 2015
+    }, {
+      "title" : "et al",
+      "author" : [ "M.G. Aartse" ],
+      "venue" : "Searches for Relativistic Magnetic Monopoles in IceCube. Eur. Phys. J. C, 76(3):133,",
+      "citeRegEx" : "6",
+      "shortCiteRegEx" : null,
+      "year" : 2016
+    }, {
+      "title" : "et al",
+      "author" : [ "M.G. Aartse" ],
+      "venue" : "The contribution of Fermi-2LAC blazars to the diffuse TeV-PeV neutrino flux. Astrophys. J., 835(1):45,",
+      "citeRegEx" : "7",
+      "shortCiteRegEx" : null,
+      "year" : 2017
+    }, {
+      "title" : "et al",
+      "author" : [ "M.G. Aartse" ],
+      "venue" : "The IceCube Neutrino Observatory: Instrumentation and Online Systems. JINST, 12(03):P03012,",
+      "citeRegEx" : "8",
+      "shortCiteRegEx" : null,
+      "year" : 2017
+    }, {
+      "title" : "et al",
+      "author" : [ "M.G. Aartse" ],
+      "venue" : "Multimessenger observations of a flaring blazar coincident with high-energy neutrino IceCube-170922A. Science, 361(6398):eaat1378,",
+      "citeRegEx" : "9",
+      "shortCiteRegEx" : null,
+      "year" : 2018
+    }, {
+      "title" : "et al",
+      "author" : [ "M.G. Aartse" ],
+      "venue" : "Neutrino emission from the direction of the blazar TXS 0506+056 prior to the IceCube170922A alert. Science, 361(6398):147–151,",
+      "citeRegEx" : "10",
+      "shortCiteRegEx" : null,
+      "year" : 2018
+    }, {
+      "title" : "et al",
+      "author" : [ "M.G. Aartse" ],
+      "venue" : "Neutrino Interferometry for High-Precision Tests of Lorentz Symmetry with IceCube. Nature Phys., 14(9):961–966,",
+      "citeRegEx" : "11",
+      "shortCiteRegEx" : null,
+      "year" : 2018
+    }, {
+      "title" : "et al",
+      "author" : [ "M.G. Aartse" ],
+      "venue" : "Measurements using the inelasticity distribution of multi-TeV neutrino interactions in IceCube. Phys. Rev. D, 99(3):032004,",
+      "citeRegEx" : "12",
+      "shortCiteRegEx" : null,
+      "year" : 2019
+    }, {
+      "title" : "et al",
+      "author" : [ "M.G. Aartse" ],
+      "venue" : "Characteristics of the diffuse astrophysical electron and tau neutrino flux with six years of IceCube high energy cascade data. Phys. Rev. Lett., 125(12):121104,",
+      "citeRegEx" : "13",
+      "shortCiteRegEx" : null,
+      "year" : 2020
+    }, {
+      "title" : "et al",
+      "author" : [ "M.G. Aartse" ],
+      "venue" : "eV-Scale Sterile Neutrino Search Using Eight Years of Atmospheric Muon Neutrino Data from the IceCube Neutrino Observatory. Phys. Rev. Lett., 125(14):141801,",
+      "citeRegEx" : "14",
+      "shortCiteRegEx" : null,
+      "year" : 2020
+    }, {
+      "title" : "et al",
+      "author" : [ "M.G. Aartse" ],
+      "venue" : "Detection of a particle shower at the Glashow resonance with IceCube. Nature, 591(7849):220–224,",
+      "citeRegEx" : "15",
+      "shortCiteRegEx" : null,
+      "year" : 2021
+    }, {
+      "title" : "et al",
+      "author" : [ "M.G. Aartse" ],
+      "venue" : "IceCube-Gen2: the window to the extreme Universe. J. Phys. G, 48(6):060501,",
+      "citeRegEx" : "16",
+      "shortCiteRegEx" : null,
+      "year" : 2021
+    }, {
+      "title" : "et al",
+      "author" : [ "R. Abbas" ],
+      "venue" : "The Design and Performance of IceCube DeepCore. Astropart. Phys., 35:615–624,",
+      "citeRegEx" : "17",
+      "shortCiteRegEx" : null,
+      "year" : 2012
+    }, {
+      "title" : "et al",
+      "author" : [ "R. Abbas" ],
+      "venue" : "Detection of astrophysical tau neutrino candidates in IceCube. Eur. Phys. J. C, 82(11):1031,",
+      "citeRegEx" : "18",
+      "shortCiteRegEx" : null,
+      "year" : 2022
+    }, {
+      "title" : "et al",
+      "author" : [ "R. Abbas" ],
+      "venue" : "Evidence for neutrino emission from the nearby active galaxy NGC 1068. Science, 378(6619):538–543,",
+      "citeRegEx" : "19",
+      "shortCiteRegEx" : null,
+      "year" : 2022
+    }, {
+      "title" : "et al",
+      "author" : [ "R. Abbas" ],
+      "venue" : "Improved Characterization of the Astrophysical Muon–neutrino Flux with 9.5 Years of IceCube Data. Astrophys. J., 928(1):50,",
+      "citeRegEx" : "20",
+      "shortCiteRegEx" : null,
+      "year" : 2022
+    }, {
+      "title" : "et al",
+      "author" : [ "R. Abbas" ],
+      "venue" : "Search for neutrino emission from cores of active galactic nuclei. Phys. Rev. D, 106(2):022005,",
+      "citeRegEx" : "21",
+      "shortCiteRegEx" : null,
+      "year" : 2022
+    }, {
+      "title" : "et al",
+      "author" : [ "R. Abbas" ],
+      "venue" : "Search for Relativistic Magnetic Monopoles with Eight Years of IceCube Data. Phys. Rev. Lett., 128(5):051101,",
+      "citeRegEx" : "22",
+      "shortCiteRegEx" : null,
+      "year" : 2022
+    }, {
+      "title" : "New flux limit in the low relativistic regime for magnetic monopoles at IceCube",
+      "author" : [ "Rasha Abbasi" ],
+      "venue" : "Proc. Sci.,",
+      "citeRegEx" : "23",
+      "shortCiteRegEx" : "23",
+      "year" : 2021
+    }, {
+      "title" : "et al",
+      "author" : [ "B.P. Abbot" ],
+      "venue" : "GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral. Phys. Rev. Lett., 119(16):161101,",
+      "citeRegEx" : "24",
+      "shortCiteRegEx" : null,
+      "year" : 2017
+    }, {
+      "title" : "et al",
+      "author" : [ "B.P. Abbot" ],
+      "venue" : "Multi-messenger Observations of a Binary Neutron Star Merger. Astrophys. J. Lett., 848(2):L12,",
+      "citeRegEx" : "25",
+      "shortCiteRegEx" : null,
+      "year" : 2017
+    }, {
+      "title" : "et al",
+      "author" : [ "A.A. Abd" ],
+      "venue" : "The Spectrum of the Isotropic Diffuse Gamma-Ray Emission Derived From First-Year Fermi Large Area Telescope Data. Phys. Rev. Lett., 104:101101,",
+      "citeRegEx" : "26",
+      "shortCiteRegEx" : null,
+      "year" : 2010
+    }, {
+      "title" : "Incremental Fermi Large Area Telescope Fourth Source Catalog",
+      "author" : [ "Soheila Abdollahi" ],
+      "venue" : "Astrophys. J. Supp.,",
+      "citeRegEx" : "27",
+      "shortCiteRegEx" : "27",
+      "year" : 2022
+    }, {
+      "title" : "et al",
+      "author" : [ "P. Abre" ],
+      "venue" : "The energy spectrum of cosmic rays beyond the turn-down around 1017 eV as measured with the surface detector of the Pierre Auger Observatory. Eur. Phys. J. C, 81(11):966,",
+      "citeRegEx" : "28",
+      "shortCiteRegEx" : null,
+      "year" : 2021
+    }, {
+      "title" : "et al",
+      "author" : [ "B.S. Achary" ],
+      "venue" : "Science with the Cherenkov Telescope Array. World Scientific, 11",
+      "citeRegEx" : "29",
+      "shortCiteRegEx" : null,
+      "year" : 2018
+    }, {
+      "title" : "et al",
+      "author" : [ "M. Ackerman" ],
+      "venue" : "A limit on the variation of the speed of light arising from quantum gravity effects. Nature, 462:331–334,",
+      "citeRegEx" : "30",
+      "shortCiteRegEx" : null,
+      "year" : 2009
+    }, {
+      "title" : "et al",
+      "author" : [ "M. Ackerman" ],
+      "venue" : "Fermi-LAT Observations of the Diffuse Gamma-Ray Emission: Implications for Cosmic Rays and the Interstellar Medium. Astrophys. J., 750:3,",
+      "citeRegEx" : "31",
+      "shortCiteRegEx" : null,
+      "year" : 2012
+    }, {
+      "title" : "et al",
+      "author" : [ "M. Ackerman" ],
+      "venue" : "The spectrum of isotropic diffuse gamma-ray emission between 100 MeV and 820 GeV. Astrophys. J., 799:86,",
+      "citeRegEx" : "32",
+      "shortCiteRegEx" : null,
+      "year" : 2015
+    }, {
+      "title" : "et al",
+      "author" : [ "M. Ackerman" ],
+      "venue" : "Resolving the Extragalactic γ-Ray Background above 50 GeV with the Fermi Large Area Telescope. Phys. Rev. Lett., 116(15):151105,",
+      "citeRegEx" : "33",
+      "shortCiteRegEx" : null,
+      "year" : 2016
+    }, {
+      "title" : "et al",
+      "author" : [ "M. Ackerman" ],
+      "venue" : "Search for Gamma-Ray Emission from Local Primordial Black Holes with the Fermi Large Area Telescope. Astrophys. J., 857(1):49,",
+      "citeRegEx" : "34",
+      "shortCiteRegEx" : null,
+      "year" : 2018
+    }, {
+      "title" : "High-energy and ultra-high-energy neutrinos: A Snowmass white",
+      "author" : [ "Markus Ackermann" ],
+      "venue" : "paper. JHEAp,",
+      "citeRegEx" : "35",
+      "shortCiteRegEx" : "35",
+      "year" : 2022
+    }, {
+      "title" : "et al",
+      "author" : [ "S. Adrian-Martine" ],
+      "venue" : "Letter of intent for KM3NeT 2.0. J. Phys. G, 43(8):084001,",
+      "citeRegEx" : "36",
+      "shortCiteRegEx" : null,
+      "year" : 2016
+    }, {
+      "title" : "et al",
+      "author" : [ "M. Aguila" ],
+      "venue" : "The Alpha Magnetic Spectrometer (AMS) on the international space station: Part II — Results from the first seven years. Phys. Rept., 894:1–116,",
+      "citeRegEx" : "37",
+      "shortCiteRegEx" : null,
+      "year" : 2021
+    }, {
+      "title" : "Probing Particle Physics with IceCube",
+      "author" : [ "Markus Ahlers", "Klaus Helbing", "Carlos Pérez de los Heros" ],
+      "venue" : "Eur. Phys. J. C,",
+      "citeRegEx" : "38",
+      "shortCiteRegEx" : "38",
+      "year" : 2018
+    }, {
+      "title" : "et al",
+      "author" : [ "M. Ajell" ],
+      "venue" : "Fermi-LAT Observations of High-Energy γ-Ray Emission Toward the Galactic Center. Astrophys. J., 819(1):44,",
+      "citeRegEx" : "39",
+      "shortCiteRegEx" : null,
+      "year" : 2016
+    }, {
+      "title" : "et al",
+      "author" : [ "M. Ake" ],
+      "venue" : " 20 royalsocietyhing.org/journal/rsta P il. Tns. R .S c. A 000000  ..............................................................  Direct neutrino-mass measurement with sub-electronvolt sensitivity. Nature Phys., 18(2):160–166,",
+      "citeRegEx" : "40",
+      "shortCiteRegEx" : null,
+      "year" : 2022
+    }, {
+      "title" : "et al",
+      "author" : [ "M. Ake" ],
+      "venue" : "Improved eV-scale sterile-neutrino constraints from the second KATRIN measurement campaign. Phys. Rev. D, 105(7):072004,",
+      "citeRegEx" : "41",
+      "shortCiteRegEx" : null,
+      "year" : 2022
+    }, {
+      "title" : "et al",
+      "author" : [ "M. Ake" ],
+      "venue" : "KATRIN: status and prospects for the neutrino mass and beyond. J. Phys. G, 49(10):100501,",
+      "citeRegEx" : "42",
+      "shortCiteRegEx" : null,
+      "year" : 2022
+    }, {
+      "title" : "et al",
+      "author" : [ "M. Ake" ],
+      "venue" : "New Constraint on the Local Relic Neutrino Background Overdensity with the First KATRIN Data Runs. Phys. Rev. Lett., 129(1):011806,",
+      "citeRegEx" : "43",
+      "shortCiteRegEx" : null,
+      "year" : 2022
+    }, {
+      "title" : "et al",
+      "author" : [ "M. Ake" ],
+      "venue" : "Search for keV-scale Sterile Neutrinos with first KATRIN Data. Eur. Phys. J. C, 83(8):763,",
+      "citeRegEx" : "44",
+      "shortCiteRegEx" : null,
+      "year" : 2023
+    }, {
+      "title" : "et al",
+      "author" : [ "M. Ake" ],
+      "venue" : "Search for Lorentz-invariance violation with the first KATRIN data. Phys. Rev. D, 107(8):082005,",
+      "citeRegEx" : "45",
+      "shortCiteRegEx" : null,
+      "year" : 2023
+    }, {
+      "title" : "et al",
+      "author" : [ "A. Alber" ],
+      "venue" : "Constraining the Local Burst Rate Density of Primordial Black Holes with HAWC. JCAP, 04:026,",
+      "citeRegEx" : "46",
+      "shortCiteRegEx" : null,
+      "year" : 2020
+    }, {
+      "title" : "et al",
+      "author" : [ "A. Alber" ],
+      "venue" : "Constraints on Lorentz Invariance Violation from HAWC Observations of Gamma Rays above 100 TeV. Phys. Rev. Lett., 124(13):131101,",
+      "citeRegEx" : "47",
+      "shortCiteRegEx" : null,
+      "year" : 2020
+    }, {
+      "title" : "John R",
+      "author" : [ "G. Amelino-Camelia" ],
+      "venue" : "Ellis, N. E. Mavromatos, Dimitri V. Nanopoulos, and Subir Sarkar. Tests of quantum gravity from observations of gamma-ray bursts. Nature, 393:763–765,",
+      "citeRegEx" : "48",
+      "shortCiteRegEx" : null,
+      "year" : 1998
+    }, {
+      "title" : "Tritium beta decay with additional emission of new light",
+      "author" : [ "Giorgio Arcadi", "Julian Heeck", "Florian Heizmann", "Susanne Mertens", "Farinaldo S. Queiroz", "Werner Rodejohann", "Martin Slezák", "Kathrin Valerius" ],
+      "venue" : "bosons. JHEP,",
+      "citeRegEx" : "49",
+      "shortCiteRegEx" : "49",
+      "year" : 2019
+    }, {
+      "title" : "et al",
+      "author" : [ "W.B. Atwoo" ],
+      "venue" : "The Large Area Telescope on the Fermi Gamma-ray Space Telescope Mission. Astrophys. J., 697:1071–1102,",
+      "citeRegEx" : "50",
+      "shortCiteRegEx" : null,
+      "year" : 2009
+    }, {
+      "title" : "et al",
+      "author" : [ "D.T. Becke" ],
+      "venue" : "Working principle and demonstrator of microwave-multiplexing for the HOLMES experiment microcalorimeters. JINST, 14(10):P10035,",
+      "citeRegEx" : "51",
+      "shortCiteRegEx" : null,
+      "year" : 2019
+    }, {
+      "title" : "Forward Beam Monitor for the KATRIN experiment",
+      "author" : [ "A. Beglarian", "E. Ellinger", "N. Haußmann", "K. Helbing", "S. Hickford", "U. Naumann", "H.W. Ortjohann", "M. Steidl", "J. Wolf", "S. Wüstling" ],
+      "venue" : "JINST, 17(03):T03002,",
+      "citeRegEx" : "52",
+      "shortCiteRegEx" : null,
+      "year" : 2022
+    }, {
+      "title" : "Constraints on Decaying Dark Matter from the Isotropic Gamma-Ray Background",
+      "author" : [ "Carlos Blanco", "Dan Hooper" ],
+      "venue" : "JCAP,",
+      "citeRegEx" : "53",
+      "shortCiteRegEx" : "53",
+      "year" : 2019
+    }, {
+      "title" : "Constraints on Heavy Decaying Dark Matter from 570 Days of LHAASO Observations",
+      "author" : [ "Zhen Cao" ],
+      "venue" : "Phys. Rev. Lett.,",
+      "citeRegEx" : "54",
+      "shortCiteRegEx" : "54",
+      "year" : 2022
+    }, {
+      "title" : "Exploring Lorentz Invariance Violation from Ultrahigh-Energy γ Rays Observed by LHAASO",
+      "author" : [ "Zhen Cao" ],
+      "venue" : "Phys. Rev. Lett.,",
+      "citeRegEx" : "55",
+      "shortCiteRegEx" : "55",
+      "year" : 2022
+    }, {
+      "title" : "Kazunori Kohri, Yuuiti Sendouda, and Jun’ichi Yokoyama",
+      "author" : [ "B.J. Carr" ],
+      "venue" : "New cosmological constraints on primordial black holes. Phys. Rev. D, 81:104019,",
+      "citeRegEx" : "56",
+      "shortCiteRegEx" : null,
+      "year" : 2010
+    }, {
+      "title" : "Black holes in the early Universe",
+      "author" : [ "Bernard J. Carr", "S.W. Hawking" ],
+      "venue" : "Mon. Not. Roy. Astron. Soc.,",
+      "citeRegEx" : "57",
+      "shortCiteRegEx" : "57",
+      "year" : 1974
+    }, {
+      "title" : "Neutrinos from Primordial Black Hole Evaporation",
+      "author" : [ "Pranav Dave", "Ignacio Taboada" ],
+      "venue" : "Proc. Sci.,",
+      "citeRegEx" : "58",
+      "shortCiteRegEx" : "58",
+      "year" : 2021
+    }, {
+      "title" : "Indirect detection constraints on the scotogenic dark matter",
+      "author" : [ "Thede de Boer", "R. Busse", "A. Kappes", "M. Klasen", "S. Zeinstra" ],
+      "venue" : "model. JCAP,",
+      "citeRegEx" : "59",
+      "shortCiteRegEx" : "59",
+      "year" : 2021
+    }, {
+      "title" : "Multimessenger constraints on the dark matter interpretation of the Fermi-LAT Galactic center excess",
+      "author" : [ "Mattia Di Mauro", "Martin Wolfgang Winkler" ],
+      "venue" : "Phys. Rev. D,",
+      "citeRegEx" : "60",
+      "shortCiteRegEx" : "60",
+      "year" : 2021
+    }, {
+      "title" : "Relativity violations and beta decay",
+      "author" : [ "Jorge S. Díaz", "Alan Kostelecký", "Ralf Lehnert" ],
+      "venue" : "Phys. Rev. D,",
+      "citeRegEx" : "61",
+      "shortCiteRegEx" : "61",
+      "year" : 2013
+    }, {
+      "title" : "Quantised singularities in the electromagnetic field",
+      "author" : [ "Paul Adrien Maurice Dirac" ],
+      "venue" : "Proc. Roy. Soc. Lond. A,",
+      "citeRegEx" : "62",
+      "shortCiteRegEx" : "62",
+      "year" : 1931
+    }, {
+      "title" : "The Extragalactic Background Light and the Gamma-ray Opacity of the Universe",
+      "author" : [ "Eli Dwek", "Frank Krennrich" ],
+      "venue" : "Astropart. Phys.,",
+      "citeRegEx" : "63",
+      "shortCiteRegEx" : "63",
+      "year" : 2013
+    }, {
+      "title" : "The Price of an Electroweak Monopole",
+      "author" : [ "John Ellis", "Nick E. Mavromatos", "Tevong You" ],
+      "venue" : "Phys. Lett. B,",
+      "citeRegEx" : "64",
+      "shortCiteRegEx" : "64",
+      "year" : 2016
+    }, {
+      "title" : "et al",
+      "author" : [ "A. Ashtari Esfahan" ],
+      "venue" : "The Project 8 Neutrino Mass Experiment. In Snowmass 2021, 3",
+      "citeRegEx" : "65",
+      "shortCiteRegEx" : null,
+      "year" : 2022
+    }, {
+      "title" : "Updated fit to three neutrino mixing: exploring the accelerator-reactor",
+      "author" : [ "Ivan Esteban", "M.C. Gonzalez-Garcia", "Michele Maltoni", "Ivan Martinez-Soler", "Thomas Schwetz" ],
+      "venue" : "complementarity. JHEP,",
+      "citeRegEx" : "66",
+      "shortCiteRegEx" : "66",
+      "year" : 2017
+    }, {
+      "title" : "The extragalactic background light revisited and the cosmic photon-photon opacity",
+      "author" : [ "Alberto Franceschini", "Giulia Rodighiero" ],
+      "venue" : "Astron. Astrophys.,",
+      "citeRegEx" : "67",
+      "shortCiteRegEx" : "67",
+      "year" : 2017
+    }, {
+      "title" : "et al",
+      "author" : [ "L. Gastald" ],
+      "venue" : "The electron capture in163Ho experiment – ECHo. Eur. Phys. J. ST, 226(8):1623–1694,",
+      "citeRegEx" : "68",
+      "shortCiteRegEx" : null,
+      "year" : 2017
+    }, {
+      "title" : "Complex Spinors and Unified Theories",
+      "author" : [ "Murray Gell-Mann", "Pierre Ramond", "Richard Slansky" ],
+      "venue" : "Conf. Proc. C,",
+      "citeRegEx" : "69",
+      "shortCiteRegEx" : "69",
+      "year" : 1979
+    }, {
+      "title" : "Gravitationally collapsed objects of very low mass",
+      "author" : [ "Stephen Hawking" ],
+      "venue" : "Mon. Not. Roy. Astron. Soc.,",
+      "citeRegEx" : "70",
+      "shortCiteRegEx" : "70",
+      "year" : 1971
+    }, {
+      "title" : "The IceCube Upgrade - Design and Science Goals",
+      "author" : [ "Aya Ishihara" ],
+      "venue" : "Proc. Sci.,",
+      "citeRegEx" : "71",
+      "shortCiteRegEx" : "71",
+      "year" : 2021
+    }, {
+      "title" : "Probing heavy dark matter decays with multi-messenger astrophysical data",
+      "author" : [ "Koji Ishiwata", "Oscar Macias", "Shin’ichiro Ando", "Makoto Arimoto" ],
+      "venue" : "JCAP,",
+      "citeRegEx" : "72",
+      "shortCiteRegEx" : "72",
+      "year" : 2020
+    }, {
+      "title" : "Energy Spectrum Measured by the Telescope Array",
+      "author" : [ "Dmitri Ivanov" ],
+      "venue" : "Proc. Sci.,",
+      "citeRegEx" : "73",
+      "shortCiteRegEx" : "73",
+      "year" : 2020
+    }, {
+      "title" : "Topology of Cosmic Domains and Strings",
+      "author" : [ "T.W.B. Kibble" ],
+      "venue" : "J. Phys. A, 9:1387–1398,",
+      "citeRegEx" : "74",
+      "shortCiteRegEx" : null,
+      "year" : 1976
+    }, {
+      "title" : "Some Implications of a Cosmological Phase Transition",
+      "author" : [ "T.W.B. Kibble" ],
+      "venue" : "Phys. Rept., 67:183,",
+      "citeRegEx" : "75",
+      "shortCiteRegEx" : null,
+      "year" : 1980
+    }, {
+      "title" : "Ongoing magnetic monopole searches with IceCube",
+      "author" : [ "Frederik Lauber" ],
+      "venue" : "EPJ Web Conf.,",
+      "citeRegEx" : "76",
+      "shortCiteRegEx" : "76",
+      "year" : 2018
+    }, {
+      "title" : "Beta-decay spectrum and Lorentz violation",
+      "author" : [ "Ralf Lehnert" ],
+      "venue" : "Phys. Lett. B,",
+      "citeRegEx" : "77",
+      "shortCiteRegEx" : "77",
+      "year" : 2022
+    }, {
+      "title" : "and Erlin Qiao",
+      "author" : [ "B.F. Li" ],
+      "venue" : "Accretion around black holes: The geometry and spectra. iScience, 25:103544,",
+      "citeRegEx" : "78",
+      "shortCiteRegEx" : null,
+      "year" : 2021
+    }, {
+      "title" : "Remarks on the unified model of elementary particles",
+      "author" : [ "Ziro Maki", "Masami Nakagawa", "Shoichi Sakata" ],
+      "venue" : "Prog. Theor. Phys.,",
+      "citeRegEx" : "79",
+      "shortCiteRegEx" : "79",
+      "year" : 1962
+    }, {
+      "title" : "Lorentz Invariance Violation",
+      "author" : [ "Humberto Martínez-Huerta", "Rodrigo Guedes Lang", "Vitor de Souza" ],
+      "venue" : "Tests in Astroparticle Physics. Symmetry,",
+      "citeRegEx" : "80",
+      "shortCiteRegEx" : "80",
+      "year" : 2020
+    }, {
+      "title" : "The Fermi Gamma-ray Burst Monitor",
+      "author" : [ "Charles Meegan" ],
+      "venue" : "Astrophys. J.,",
+      "citeRegEx" : "81",
+      "shortCiteRegEx" : "81",
+      "year" : 2009
+    }, {
+      "title" : "Sensitivity of Next-Generation Tritium Beta-Decay Experiments for keV-Scale Sterile Neutrinos",
+      "author" : [ "S. Mertens", "T. Lasserre", "S. Groh", "G. Drexlin", "F. Glueck", "A. Huber", "A.W.P. Poon", "M. Steidl", "N. Steinbrink", "C. Weinheimer" ],
+      "venue" : "JCAP, 02:020,",
+      "citeRegEx" : "82",
+      "shortCiteRegEx" : null,
+      "year" : 2015
+    }, {
+      "title" : "Theories of gamma-ray bursts",
+      "author" : [ "Peter Meszaros" ],
+      "venue" : "Ann. Rev. Astron. Astrophys.,",
+      "citeRegEx" : "83",
+      "shortCiteRegEx" : "83",
+      "year" : 2002
+    }, {
+      "title" : "Mechanism for Understanding Small Neutrino Mass in Superstring Theories",
+      "author" : [ "R.N. Mohapatra" ],
+      "venue" : "Phys. Rev. Lett., 56:561–563,",
+      "citeRegEx" : "84",
+      "shortCiteRegEx" : null,
+      "year" : 1986
+    }, {
+      "title" : "Neutrino Mass and Baryon Number Nonconservation in Superstring Models",
+      "author" : [ "R.N. Mohapatra", "J.W.F. Valle" ],
+      "venue" : "Phys. Rev. D, 34:1642,",
+      "citeRegEx" : "85",
+      "shortCiteRegEx" : null,
+      "year" : 1986
+    }, {
+      "title" : "Hidden Hearts of Neutrino Active Galaxies",
+      "author" : [ "Kohta Murase" ],
+      "venue" : "Astrophys. J. Lett.,",
+      "citeRegEx" : "86",
+      "shortCiteRegEx" : "86",
+      "year" : 2022
+    }, {
+      "title" : "The Fermi–LAT Galactic Center Excess: Evidence of Annihilating",
+      "author" : [ "Simona Murgia" ],
+      "venue" : "Dark Matter? Ann. Rev. Nucl. Part. Sci.,",
+      "citeRegEx" : "87",
+      "shortCiteRegEx" : "87",
+      "year" : 2020
+    }, {
+      "title" : "Luminescence of ice as a new detection channel for neutrino telescopes",
+      "author" : [ "Anna Pollmann" ],
+      "venue" : "Proc. Sci.,",
+      "citeRegEx" : "88",
+      "shortCiteRegEx" : "88",
+      "year" : 2021
+    }, {
+      "title" : "Particle Spectrum in Quantum Field Theory",
+      "author" : [ "Alexander M. Polyakov" ],
+      "venue" : "JETP Lett.,",
+      "citeRegEx" : "89",
+      "shortCiteRegEx" : "89",
+      "year" : 1974
+    }, {
+      "title" : "Inverse beta processes and nonconservation of lepton charge",
+      "author" : [ "B. Pontecorvo" ],
+      "venue" : "Zh. Eksp. Teor. Fiz., 34:247,",
+      "citeRegEx" : "90",
+      "shortCiteRegEx" : null,
+      "year" : 1957
+    }, {
+      "title" : "Astrophysical axion bounds",
+      "author" : [ "Georg G. Raffelt" ],
+      "venue" : "Lect. Notes Phys.,",
+      "citeRegEx" : "91",
+      "shortCiteRegEx" : "91",
+      "year" : 2008
+    }, {
+      "title" : "Astrophysical neutrinos flavored with Beyond the Standard Model physics",
+      "author" : [ "Rasmus W. Rasmussen", "Lukas Lechner", "Markus Ackermann", "Marek Kowalski", "Walter Winter" ],
+      "venue" : "Phys. Rev. D,",
+      "citeRegEx" : "92",
+      "shortCiteRegEx" : "92",
+      "year" : 2017
+    }, {
+      "title" : "Candidate Tidal Disruption Event AT2019fdr Coincident with a High-Energy Neutrino",
+      "author" : [ "Simeon Reusch" ],
+      "venue" : "Phys. Rev. Lett.,",
+      "citeRegEx" : "93",
+      "shortCiteRegEx" : "93",
+      "year" : 2022
+    }, {
+      "title" : "Neutrino mixing in SO(10) GUTs with a non-Abelian flavor symmetry in the hidden sector",
+      "author" : [ "Alexei Yu Smirnov", "Xun-Jie Xu" ],
+      "venue" : "royalsocietyhing.org/journal/rsta P il. Tns. R .S c. A",
+      "citeRegEx" : "94",
+      "shortCiteRegEx" : "94",
+      "year" : 2018
+    }, {
+      "title" : "A tidal disruption event coincident with a high-energy neutrino",
+      "author" : [ "Robert Stein" ],
+      "venue" : "Nature Astron.,",
+      "citeRegEx" : "95",
+      "shortCiteRegEx" : "95",
+      "year" : 2021
+    }, {
+      "title" : "Magnetic Monopoles in Unified Gauge Theories",
+      "author" : [ "Gerard ’t Hooft" ],
+      "venue" : "Nucl. Phys. B,",
+      "citeRegEx" : "96",
+      "shortCiteRegEx" : "96",
+      "year" : 1974
+    }, {
+      "title" : "Palomares-Ruiz. A brief review on primordial black holes as dark matter",
+      "author" : [ "Pablo Villanueva-Domingo", "Olga Mena", "Sergio" ],
+      "venue" : "Front. Astron. Space Sci.,",
+      "citeRegEx" : "97",
+      "shortCiteRegEx" : "97",
+      "year" : 2021
+    }, {
+      "title" : "Unveiling the Origin of the Fermi Bubbles",
+      "author" : [ "H.Y.K. Yang", "M. Ruszkowski", "E. Zweibel" ],
+      "venue" : "Galaxies, 6(1):29,",
+      "citeRegEx" : "98",
+      "shortCiteRegEx" : null,
+      "year" : 2018
+    }, {
+      "title" : "The Hypothesis of Cores Retarded during Expansion and the Hot Cosmological Model",
+      "author" : [ "Ya. B. Zel’dovich", "I.D. Novikov" ],
+      "venue" : "Soviet Astron. AJ (Engl. Transl. ),,",
+      "citeRegEx" : "99",
+      "shortCiteRegEx" : "99",
+      "year" : 1967
+    } ],
+    "referenceMentions" : [ {
+      "referenceID" : 7,
+      "context" : "The IceCube neutrino observatory [8], located near Amundsen-Scott base at the geographic South Pole in Antarctica, is the world’s most sensitive neutrino telescope to date.",
+      "startOffset" : 33,
+      "endOffset" : 36
+    }, {
+      "referenceID" : 7,
+      "context" : "The arrival direction of tracks can be reconstructed to sub-degree accuracy [8], while the angular resolution is of O(10◦) for cascades.",
+      "startOffset" : 76,
+      "endOffset" : 79
+    }, {
+      "referenceID" : 1,
+      "context" : "In contrast, the energy resolution of cascades detected in IceCube is ∼15% [2], while the measurement of the energy loss of tracks inside the instrumented volume only yields a lower limit on the muon and neutrino energies.",
+      "startOffset" : 75,
+      "endOffset" : 78
+    }, {
+      "referenceID" : 16,
+      "context" : "A denser configuration of optical sensors in the center of IceCube (named DeepCore) yields a lower detection threshold of about 10 GeV for neutrino interactions in this volume, enabling the study of neutrino oscillation parameters with atmospheric neutrinos in IceCube, but also significantly increasing the sensitivity to neutrino signals from dark matter annihilation for WIMP masses below few hundreds of GeV [17].",
+      "startOffset" : 412,
+      "endOffset" : 416
+    }, {
+      "referenceID" : 49,
+      "context" : "ray sky at energies from about 50 MeV to 1 TeV [50].",
+      "startOffset" : 47,
+      "endOffset" : 51
+    }, {
+      "referenceID" : 23,
+      "context" : "in coincidence with the gravitational wave signal [24,25], marking the first and only direct confirmation of the connection between compact object mergers and GRBs to date.",
+      "startOffset" : 50,
+      "endOffset" : 57
+    }, {
+      "referenceID" : 24,
+      "context" : "in coincidence with the gravitational wave signal [24,25], marking the first and only direct confirmation of the connection between compact object mergers and GRBs to date.",
+      "startOffset" : 50,
+      "endOffset" : 57
+    }, {
+      "referenceID" : 51,
+      "context" : "the forward beam monitor [52] in the cryogenic pumping section uses silicon detectors to sample the β rate at the edge of the flux tube and across.",
+      "startOffset" : 25,
+      "endOffset" : 29
+    }, {
+      "referenceID" : 30,
+      "context" : "Clearly visible on this skymap are the many sources, both Galactic and extragalactic in origin, as well as the diffuse Galactic emission originating from the interactions of cosmic-ray nuclei and electrons in the interstellar gas and radiation fields [31].",
+      "startOffset" : 251,
+      "endOffset" : 255
+    }, {
+      "referenceID" : 26,
+      "context" : "Source catalogs are updated in regular intervals by the Fermi LAT collaboration, the latest such catalog being 4FGL-DR3, based on 12 years of LAT observations [27].",
+      "startOffset" : 159,
+      "endOffset" : 163
+    }, {
+      "referenceID" : 25,
+      "context" : "An earlier measurement [26] is shown for",
+      "startOffset" : 23,
+      "endOffset" : 27
+    }, {
+      "referenceID" : 31,
+      "context" : "Measurements of high-energy gamma rays by Fermi-LAT [32], high-energy neutrinos by IceCube [13,15,20],",
+      "startOffset" : 52,
+      "endOffset" : 56
+    }, {
+      "referenceID" : 12,
+      "context" : "Measurements of high-energy gamma rays by Fermi-LAT [32], high-energy neutrinos by IceCube [13,15,20],",
+      "startOffset" : 91,
+      "endOffset" : 101
+    }, {
+      "referenceID" : 14,
+      "context" : "Measurements of high-energy gamma rays by Fermi-LAT [32], high-energy neutrinos by IceCube [13,15,20],",
+      "startOffset" : 91,
+      "endOffset" : 101
+    }, {
+      "referenceID" : 19,
+      "context" : "Measurements of high-energy gamma rays by Fermi-LAT [32], high-energy neutrinos by IceCube [13,15,20],",
+      "startOffset" : 91,
+      "endOffset" : 101
+    }, {
+      "referenceID" : 27,
+      "context" : "and ultra-high-energy cosmic rays by the Pierre Auger Observatory [28] and the Telescope Array [73].",
+      "startOffset" : 66,
+      "endOffset" : 70
+    }, {
+      "referenceID" : 72,
+      "context" : "and ultra-high-energy cosmic rays by the Pierre Auger Observatory [28] and the Telescope Array [73].",
+      "startOffset" : 95,
+      "endOffset" : 99
+    }, {
+      "referenceID" : 31,
+      "context" : "Figure 3 shows the latest measurement of the IGRB obtained from Fermi LAT data [32].",
+      "startOffset" : 79,
+      "endOffset" : 83
+    }, {
+      "referenceID" : 0,
+      "context" : "Astrophysical neutrinos, discovered for the first time in the data of the IceCube neutrino telescope in 2013 [1], have now been observed for over a decade.",
+      "startOffset" : 109,
+      "endOffset" : 112
+    }, {
+      "referenceID" : 62,
+      "context" : "While neutrinos can propagate the universe freely, photons with energies above few tens of GeV will interact with UV to microwave radiation backgrounds in the universe [63], producing electron-positron pairs that in turn will radiate photons (at lower energies than the initial photon) via inverse Compton interactions in the same intergalactic radiation fields.",
+      "startOffset" : 168,
+      "endOffset" : 172
+    }, {
+      "referenceID" : 17,
+      "context" : "from the analysis that identified the first tau neutrino candidates [18] is shown as black contours.",
+      "startOffset" : 68,
+      "endOffset" : 72
+    }, {
+      "referenceID" : 3,
+      "context" : "measurements, [4,12] are shown as shaded regions.",
+      "startOffset" : 14,
+      "endOffset" : 20
+    }, {
+      "referenceID" : 11,
+      "context" : "measurements, [4,12] are shown as shaded regions.",
+      "startOffset" : 14,
+      "endOffset" : 20
+    }, {
+      "referenceID" : 32,
+      "context" : "Unsurprisingly, given that most extragalactic Fermi LAT sources are blazars, also the IGRB above few tens of GeV is dominated by emission from unresolved blazars [33].",
+      "startOffset" : 162,
+      "endOffset" : 166
+    }, {
+      "referenceID" : 8,
+      "context" : "for TeV neutrino emission from blazars has also been found, in particular in relation to the source TXS 0506+056 [9,10].",
+      "startOffset" : 113,
+      "endOffset" : 119
+    }, {
+      "referenceID" : 9,
+      "context" : "for TeV neutrino emission from blazars has also been found, in particular in relation to the source TXS 0506+056 [9,10].",
+      "startOffset" : 113,
+      "endOffset" : 119
+    }, {
+      "referenceID" : 6,
+      "context" : "However, the lack of the detection of bright individual blazars with IceCube, limits their cumulative contribution to the total extragalactic neutrino flux to few percent [7].",
+      "startOffset" : 171,
+      "endOffset" : 174
+    }, {
+      "referenceID" : 4,
+      "context" : "Few such environments exist in nature, early phases of gamma-ray burst (GRB) explosions would be a candidate, but the non-observation of neutrinos correlated to GRBs sets stringent limits (<1%) on their contribution to the extragalactic neutrino emission [5].",
+      "startOffset" : 255,
+      "endOffset" : 258
+    }, {
+      "referenceID" : 18,
+      "context" : "The first strong evidence for a neutrino point source, the observation of neutrino emission from the nearby active galaxy NGC 1068 [19] strengthens the case to be made for this type of sources.",
+      "startOffset" : 131,
+      "endOffset" : 135
+    }, {
+      "referenceID" : 20,
+      "context" : "emission and a large sample of active galaxies finds that the IceCube data is compatible with a predominant production of extragalactic neutrinos in this population [21].",
+      "startOffset" : 165,
+      "endOffset" : 169
+    }, {
+      "referenceID" : 92,
+      "context" : "Interestingly, a related transient phenomenon, the tidal disruption of stars in the gravitational field of otherwise quiet supermassive black holes that lead to the formation of temporary accretion disks, have also been linked to the emission of high-energy neutrinos [93,95].",
+      "startOffset" : 268,
+      "endOffset" : 275
+    }, {
+      "referenceID" : 94,
+      "context" : "Interestingly, a related transient phenomenon, the tidal disruption of stars in the gravitational field of otherwise quiet supermassive black holes that lead to the formation of temporary accretion disks, have also been linked to the emission of high-energy neutrinos [93,95].",
+      "startOffset" : 268,
+      "endOffset" : 275
+    }, {
+      "referenceID" : 66,
+      "context" : ", [67]) due to photon-photon pair-production of the gamma rays with the microwave-to-UV photons of the EBL.",
+      "startOffset" : 2,
+      "endOffset" : 6
+    }, {
+      "referenceID" : 79,
+      "context" : "Quantum gravity theories generally allow for a violation of the energy dispersion relation of special relativity that would lead to small, energy dependent, differences in the group velocities of particles that deviate from E(2) − p(2) =m(2) (see [80], for a review on this topic).",
+      "startOffset" : 247,
+      "endOffset" : 251
+    }, {
+      "referenceID" : 78,
+      "context" : "Standard oscillations, parametrized in the PMNS matrix [79,90], lead to a narrow range of observable flavor compositions for any possible flavor composition at the source.",
+      "startOffset" : 55,
+      "endOffset" : 62
+    }, {
+      "referenceID" : 89,
+      "context" : "Standard oscillations, parametrized in the PMNS matrix [79,90], lead to a narrow range of observable flavor compositions for any possible flavor composition at the source.",
+      "startOffset" : 55,
+      "endOffset" : 62
+    }, {
+      "referenceID" : 81,
+      "context" : "a kink-like spectral feature (heavy sterile neutrinos [82]), a shape distortion (exotic weak",
+      "startOffset" : 54,
+      "endOffset" : 58
+    }, {
+      "referenceID" : 48,
+      "context" : "interactions, light sterile neutrinos, or new light bosons [49]), the appearance of a line feature (relic neutrino capture [43]), or a sidereal modulation of the fit parameters (Lorentz invariance violation [45]).",
+      "startOffset" : 59,
+      "endOffset" : 63
+    }, {
+      "referenceID" : 42,
+      "context" : "interactions, light sterile neutrinos, or new light bosons [49]), the appearance of a line feature (relic neutrino capture [43]), or a sidereal modulation of the fit parameters (Lorentz invariance violation [45]).",
+      "startOffset" : 123,
+      "endOffset" : 127
+    }, {
+      "referenceID" : 44,
+      "context" : "interactions, light sterile neutrinos, or new light bosons [49]), the appearance of a line feature (relic neutrino capture [43]), or a sidereal modulation of the fit parameters (Lorentz invariance violation [45]).",
+      "startOffset" : 207,
+      "endOffset" : 211
+    }, {
+      "referenceID" : 56,
+      "context" : "Black holes might have formed in the early universe over a wide range of masses, ranging from the Planck mass (10−5 g) to hundreds of thousands of solar masses [57,70,99].",
+      "startOffset" : 160,
+      "endOffset" : 170
+    }, {
+      "referenceID" : 69,
+      "context" : "Black holes might have formed in the early universe over a wide range of masses, ranging from the Planck mass (10−5 g) to hundreds of thousands of solar masses [57,70,99].",
+      "startOffset" : 160,
+      "endOffset" : 170
+    }, {
+      "referenceID" : 98,
+      "context" : "Black holes might have formed in the early universe over a wide range of masses, ranging from the Planck mass (10−5 g) to hundreds of thousands of solar masses [57,70,99].",
+      "startOffset" : 160,
+      "endOffset" : 170
+    }, {
+      "referenceID" : 55,
+      "context" : "The observation of the IGRB leads to one of the best current constraints on the density of PBHs with mass ranges between M ∼ 10(14) g and M ∼ 10(17) g [56].",
+      "startOffset" : 151,
+      "endOffset" : 155
+    }, {
+      "referenceID" : 57,
+      "context" : "The expected neutrino signal is time and energy dependent [58].",
+      "startOffset" : 58,
+      "endOffset" : 62
+    }, {
+      "referenceID" : 61,
+      "context" : "Dirac was the first to speculate about the existence of magnetic monopoles [62].",
+      "startOffset" : 75,
+      "endOffset" : 79
+    }, {
+      "referenceID" : 95,
+      "context" : "As was first found independently by ’t Hooft [96] and Polyakov [89], this is different in Grand",
+      "startOffset" : 45,
+      "endOffset" : 49
+    }, {
+      "referenceID" : 88,
+      "context" : "As was first found independently by ’t Hooft [96] and Polyakov [89], this is different in Grand",
+      "startOffset" : 63,
+      "endOffset" : 67
+    }, {
+      "referenceID" : 75,
+      "context" : "982c from the bottom to the top of the detector [76].",
+      "startOffset" : 48,
+      "endOffset" : 52
+    }, {
+      "referenceID" : 21,
+      "context" : "The simulated track of the particle is indicated in red [22].",
+      "startOffset" : 56,
+      "endOffset" : 60
+    }, {
+      "referenceID" : 73,
+      "context" : "In this case, the expected monopole density would be roughly one per correlated volume, which corresponds to the horizon size in a second-order phase transition [74,75].",
+      "startOffset" : 161,
+      "endOffset" : 168
+    }, {
+      "referenceID" : 74,
+      "context" : "In this case, the expected monopole density would be roughly one per correlated volume, which corresponds to the horizon size in a second-order phase transition [74,75].",
+      "startOffset" : 161,
+      "endOffset" : 168
+    }, {
+      "referenceID" : 2,
+      "context" : "For each of these speed ranges, the search for magnetic monopoles with the IceCube experiment has set the current best upper limits on the flux of magnetic monopoles [3,6,22,23].",
+      "startOffset" : 166,
+      "endOffset" : 177
+    }, {
+      "referenceID" : 5,
+      "context" : "For each of these speed ranges, the search for magnetic monopoles with the IceCube experiment has set the current best upper limits on the flux of magnetic monopoles [3,6,22,23].",
+      "startOffset" : 166,
+      "endOffset" : 177
+    }, {
+      "referenceID" : 21,
+      "context" : "For each of these speed ranges, the search for magnetic monopoles with the IceCube experiment has set the current best upper limits on the flux of magnetic monopoles [3,6,22,23].",
+      "startOffset" : 166,
+      "endOffset" : 177
+    }, {
+      "referenceID" : 22,
+      "context" : "For each of these speed ranges, the search for magnetic monopoles with the IceCube experiment has set the current best upper limits on the flux of magnetic monopoles [3,6,22,23].",
+      "startOffset" : 166,
+      "endOffset" : 177
+    }, {
+      "referenceID" : 87,
+      "context" : "With the determination of the efficiency of luminescence in ice [88] it is now possible to detect such particles essentially across all velocity ranges.",
+      "startOffset" : 64,
+      "endOffset" : 68
+    }, {
+      "referenceID" : 47,
+      "context" : "is the lowest order non-vanishing term in the expansion [48].",
+      "startOffset" : 56,
+      "endOffset" : 60
+    }, {
+      "referenceID" : 29,
+      "context" : "9, this allowed for the first time to constrain EQG >EPlanck for n= 1 [30].",
+      "startOffset" : 70,
+      "endOffset" : 74
+    }, {
+      "referenceID" : 10,
+      "context" : "IceCube measurements of the atmospheric neutrino flux as a function of zenith angle can probe propagation distances L between few tens of km and the Earth diameter of about 12800 km, as well as energies between few hundred GeV and few tens of TeV, leading to some of the strongest constraints for higher-order deviations of the dispersion relation [11].",
+      "startOffset" : 348,
+      "endOffset" : 352
+    }, {
+      "referenceID" : 76,
+      "context" : "In KATRIN a preferred direction in space could manifest as a variation of the spectral endpoint depending on the latitude and orientation of the β-electron beam, or as a sidereal oscillation of the spectral endpoint E0 [77].",
+      "startOffset" : 219,
+      "endOffset" : 223
+    }, {
+      "referenceID" : 44,
+      "context" : "This analysis finds no sign of LIV [45].",
+      "startOffset" : 35,
+      "endOffset" : 39
+    }, {
+      "referenceID" : 38,
+      "context" : ", [39]) that can be interpreted as a WIMP annihilation signal for a dark matter particle with a mass of few tens of GeV.",
+      "startOffset" : 2,
+      "endOffset" : 6
+    }, {
+      "referenceID" : 59,
+      "context" : "The work in [60] demonstrates that, including also the direct CR measurements from AMS-02 [37], it is indeed difficult to reconcile all current measurements with a dark matter origin of the Galactic center excess.",
+      "startOffset" : 12,
+      "endOffset" : 16
+    }, {
+      "referenceID" : 36,
+      "context" : "The work in [60] demonstrates that, including also the direct CR measurements from AMS-02 [37], it is indeed difficult to reconcile all current measurements with a dark matter origin of the Galactic center excess.",
+      "startOffset" : 90,
+      "endOffset" : 94
+    }, {
+      "referenceID" : 52,
+      "context" : "DM particle mass range from few GeV to EeV [53].",
+      "startOffset" : 43,
+      "endOffset" : 47
+    }, {
+      "referenceID" : 68,
+      "context" : "[69]), in which all forces except gravity are unified with ΛNP ≃ 10(16) GeV.",
+      "startOffset" : 0,
+      "endOffset" : 4
+    }, {
+      "referenceID" : 39,
+      "context" : "), based on its first calendar year of data taking [40].",
+      "startOffset" : 51,
+      "endOffset" : 55
+    }, {
+      "referenceID" : 13,
+      "context" : "The result shows consistency with the no sterile neutrino hypothesis [14].",
+      "startOffset" : 69,
+      "endOffset" : 73
+    }, {
+      "referenceID" : 40,
+      "context" : "The sterile-neutrino analyses of the first two measurement campaigns with a sensitivity to m(2)4 ≲ 1600 eV 2 and |Ue4|(2) ≳ 6× 10−3 did not identify a signal [41].",
+      "startOffset" : 158,
+      "endOffset" : 162
+    }, {
+      "referenceID" : 91,
+      "context" : "A comprehensive overview of the expected flavor compositions with and without new physics effects is given in [92].",
+      "startOffset" : 110,
+      "endOffset" : 114
+    }, {
+      "referenceID" : 65,
+      "context" : "namely IceCube-Gen2 (see section 4), for the case that the true flavor composition is given by a neutrino production at the source with flavor ratios of νe : νμ : ντ = 1 : 2 : 0 and assuming flavor oscillations according to the best-fit neutrino mixing matrix from atmospheric and accelerator neutrino measurements [66].",
+      "startOffset" : 315,
+      "endOffset" : 319
+    }, {
+      "referenceID" : 45,
+      "context" : ", [46,47,54,55]) and will continue to do so in the future.",
+      "startOffset" : 2,
+      "endOffset" : 15
+    }, {
+      "referenceID" : 46,
+      "context" : ", [46,47,54,55]) and will continue to do so in the future.",
+      "startOffset" : 2,
+      "endOffset" : 15
+    }, {
+      "referenceID" : 53,
+      "context" : ", [46,47,54,55]) and will continue to do so in the future.",
+      "startOffset" : 2,
+      "endOffset" : 15
+    }, {
+      "referenceID" : 54,
+      "context" : ", [46,47,54,55]) and will continue to do so in the future.",
+      "startOffset" : 2,
+      "endOffset" : 15
+    }, {
+      "referenceID" : 28,
+      "context" : ", strong constraints on the WIMP annihilation cross-section beyond the mass range that can be tested by Fermi LAT and even more sensitive LIV tests [29].",
+      "startOffset" : 148,
+      "endOffset" : 152
+    }, {
+      "referenceID" : 64,
+      "context" : "The Project 8 collaboration [65] performs cyclotron radiation spectroscopy of an atomic tritium source with the goal to reach a neutrino mass sensitivity of 40 meV.",
+      "startOffset" : 28,
+      "endOffset" : 32
+    }, {
+      "referenceID" : 50,
+      "context" : "HOLMES [51] intends to perform a calorimetric measurement of the energy released in the decay of 163Ho with a with a sensitivity on the neutrino mass of about 1 eV/c(2).",
+      "startOffset" : 7,
+      "endOffset" : 11
+    }, {
+      "referenceID" : 67,
+      "context" : "ECHo [68] uses arrays of Metallic Magnetic Calorimeters with 163Ho implanted and aims to reach sub-eV sensitivity.",
+      "startOffset" : 5,
+      "endOffset" : 9
+    }, {
+      "referenceID" : 35,
+      "context" : "KM3NeT [36] is a neutrino telescope under construction in the Mediterranean sea at two sites.",
+      "startOffset" : 7,
+      "endOffset" : 11
+    }, {
+      "referenceID" : 15,
+      "context" : "Figure 9 shows an artist impression of the next generation detector at South Pole, IceCubeGen2, that has been proposed [16].",
+      "startOffset" : 119,
+      "endOffset" : 123
+    }, {
+      "referenceID" : 70,
+      "context" : "Upgrade is currently underway, aiming to deploy seven new strings with newly developed optical sensors and additional calibration devices in the center of IceCube [71] by 2026.",
+      "startOffset" : 163,
+      "endOffset" : 167
+    }, {
+      "referenceID" : 15,
+      "context" : "A more comprehensive overview can be found in [16].",
+      "startOffset" : 46,
+      "endOffset" : 50
+    }, {
+      "referenceID" : 15,
+      "context" : "Gen2 optical array will feature multiple PMTs per sensors and collect 3-4 times more light than an IceCube sensor [16].",
+      "startOffset" : 114,
+      "endOffset" : 118
+    } ],
+    "year" : 2024,
+    "abstractText" : "Many instruments for astroparticle physics are primarily geared towards multi-messenger astrophysics, to study the origin of cosmic rays (CR) and to understand high-energy astrophysical processes. Since these instruments observe the Universe at extreme energies and in kinematic ranges not accessible at accelerators these experiments provide also unique and complementary opportunities to search for particles and physics beyond the standard model of particle physics. In particular, the reach of IceCube, Fermi and KATRIN to search for and constrain Dark Matter, Axions, heavy Big Bang relics, sterile neutrinos and Lorentz Invariance Violation (LIV) will be discussed. The contents of this article are based on material presented at the HumboldtKolleg \"Clues to a mysterious Universe exploring the interface of particle, gravity and quantum physics\" in June 2022.",
+    "creator" : "LaTeX with hyperref"
+  }
+}
